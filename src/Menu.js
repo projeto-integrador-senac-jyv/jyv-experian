@@ -17,13 +17,8 @@ const Menu = () => {
                 
             <div className='a'>
 
-                <br/>
-
                 <a href='./Cadastro' > Cadastre-se  </a>
                 <a href='./Login' > Login </a>
-
-                <br/>
-                <br/>
 
             </div>
 
