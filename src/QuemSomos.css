@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
+.container {
+
+    color: rgb(47, 47, 47);
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('https://blog.nubank.com.br/wp-content/uploads/2021/11/nusocios-aceitei-pedacinho-1.jpg?w=1024');
+    background-size: auto;
+    background-position: center;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.div1{
+
+    background: transparent;
+    margin: 5%;
+    padding: 5%;
+    color: rgb(250, 250, 250);
+    font-size: 125%;
+
+}
+
+.div2{
+
+    background: transparent;
+    margin: 5%;
+    padding: 5%;
+    color: rgb(250, 250, 250);
+    font-size: 125%;
+    text-align: center;
+
+}
+
+.button3{
+
+    background: #933999 ;
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3{
+
+    margin: 2px;
+
+}

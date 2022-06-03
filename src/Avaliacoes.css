@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
+.titulo{
+
+    font-family: 'Titillium Web', sans-serif;
+    background: #933999;
+    color: white;
+
+}
+
+.av{
+
+    background: #933999;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.av1{
+
+    background: #ab2ab4;
+    margin: 5%;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 3px 2px 3px #3b1c3d;
+
+}
+
+.av2{
+
+    background: #ab2ab4;
+    margin: 5%;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 3px 2px 3px #3b1c3d;
+
+}
+
+.av3{
+
+    background: #ab2ab4;
+    margin: 5%;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 3px 2px 3px #3b1c3d;
+
+}
+
+.estrelas{
+
+    width: 200px;
+    height: 50px;
+
+}

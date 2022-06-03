@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.menu{
+
+    background: #933999;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    font-family: 'Koulen', cursive;
+    height: 100px;
+
+}
+
+img {
+
+    width: 90px;
+    height: 90px;
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 10px;
+
+}
+
+button {
+
+    background: #933999;
+    margin: 0 1em 0 0;
+    padding-left: none;
+    padding-right: none;
+    padding: 0;
+    width: 80px;
+    border: none;
+
+   
+}
+
+button img {
+
+    margin: 10%;
+    width: 100px;
+    height: 100px;
+
+}
