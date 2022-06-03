@@ -8,20 +8,19 @@ const Menu = () => {
 
         <div className='menu'>
 
-            <img src='https://i.imgur.com/4VKksC4.png' ></img> 
+            <button onClick='./Inicio'>
 
+                <img src='https://i.imgur.com/4VKksC4.png' ></img> 
+
+            </button>
             
                 
             <div className='a'>
 
                 <br/>
 
-<<<<<<< Updated upstream
-                <a href='#' > Cadastre-se  </a>
-=======
-                <a href='#' > Cadastre-se </a>
->>>>>>> Stashed changes
-                <a href='#' > Login </a>
+                <a href='./Cadastro' > Cadastre-se  </a>
+                <a href='./Login' > Login </a>
 
                 <br/>
                 <br/>
