@@ -10,14 +10,14 @@ function Simulacao() {
 
 
   return (
-    <div>
+    <div className="fundo">
         <Menu/> 
         
       <h1>    SIMULE SEU EMPRÉSTIMO PESSOAL </h1>
                 
            
       
-        <div className="box">
+        <div className="box3">
 
             <div >
                 <input placeholder="Informe  seu CPF"></input>
@@ -36,6 +36,7 @@ function Simulacao() {
                 <label for="Banco"></label>
 
                 <select name="Banco" id=" Banco ">
+                <option value="Escolha um Banco" disabled>Escolha um Banco</option>
                     <option value="Brasil">Brasil</option>
                     <option value="Bradesco">Bradesco</option>
                     <option value="Santander">Santander</option>
@@ -49,6 +50,7 @@ function Simulacao() {
                 <label for="Parcelamento"></label>
 
                 <select name="Parcelamento" id=" Parcelamento ">
+                    <option value="Escolha uma forma de Parcelamento">Escolha uma forma de Parcelamento</option>
                     <option value="5X Sem juros">5X Sem juros</option>
                     <option value="10X Sem juros">10X Sem juros</option>
                     <option value="15X Sem juros">15X Sem juros</option>
@@ -62,7 +64,7 @@ function Simulacao() {
 
             <br/>
             <br/>
-            <button className="button1"> Solicitar Análise </button>
+            <button className="button3"> Solicitar Análise </button>
 
         </div>
    </div>
