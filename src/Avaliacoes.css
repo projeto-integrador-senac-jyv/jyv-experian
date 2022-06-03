@@ -13,38 +13,29 @@
     background: #933999;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
-.av1{
+.av img{
+
+    width: 150px;
+    margin: 20px;
+
+}
+
+.avs{
 
     background: #ab2ab4;
-    margin: 5%;
+    margin: 50px;
     color: white;
     border-radius: 10%;
     box-shadow: 3px 2px 3px #3b1c3d;
+    width: 500px;
+    height: 500px;
 
 }
 
-.av2{
-
-    background: #ab2ab4;
-    margin: 5%;
-    color: white;
-    border-radius: 10%;
-    box-shadow: 3px 2px 3px #3b1c3d;
-
-}
-
-.av3{
-
-    background: #ab2ab4;
-    margin: 5%;
-    color: white;
-    border-radius: 10%;
-    box-shadow: 3px 2px 3px #3b1c3d;
-
-}
 
 .estrelas{
 
