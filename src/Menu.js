@@ -16,7 +16,7 @@ const Menu = () => {
 
                 <br/>
 
-                <a href='#' > Cadastre-se </a>
+                <a href='#' > Cadastre-se abcd123 </a>
                 <a href='#' > Login </a>
 
                 <br/>
