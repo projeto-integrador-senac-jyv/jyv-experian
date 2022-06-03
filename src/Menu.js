@@ -16,7 +16,11 @@ const Menu = () => {
 
                 <br/>
 
+<<<<<<< Updated upstream
                 <a href='#' > Cadastre-se  </a>
+=======
+                <a href='#' > Cadastre-se </a>
+>>>>>>> Stashed changes
                 <a href='#' > Login </a>
 
                 <br/>
