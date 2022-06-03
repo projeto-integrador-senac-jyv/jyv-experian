@@ -1,3 +1,5 @@
+import Menu from "./Menu";
+
 function Cadastro() {
 
     require("./Cadastro.css")
@@ -5,7 +7,8 @@ function Cadastro() {
     return (
         <div className="fundo">
 
-
+            <Menu/>
+            
             <div className="box">
                 <h1> Cadastro </h1>
                 <input placeholder="Digite seu nome completo"></input>

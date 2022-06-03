@@ -1,9 +1,8 @@
 import React from 'react';
-import Menu from './Menu';
-import QuemSomos from './QuemSomos';
-import PerguntasFrequentes from './PerguntasFrequentes.js';
-import Avaliacoes from './Avaliacoes';
-import MiniMenu from './MiniMenu';
+import Cadastro from './Cadastro';
+import Login from './Login';
+import Inicio from './Inicio';
+import { Routes, Route } from "react-router-dom";
 
 function App () {
 
@@ -12,15 +11,11 @@ function App () {
     return(
 
         <div>
-
-            <Menu/>
-            <QuemSomos/>
-            <PerguntasFrequentes/>
-            <Avaliacoes/>
-            {
-            ///<MiniMenu/>
-            }
-
+            <Routes>
+                <Route path="/" element={<Inicio />} />
+                <Route path="/cadastro" element={<Cadastro />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
         </div>
     );
 

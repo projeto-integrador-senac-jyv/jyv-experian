@@ -1,3 +1,5 @@
+import Menu from "./Menu";
+
 function Login() {
 
     require("./Login.css")
@@ -5,7 +7,8 @@ function Login() {
     return (
         <div className="fundo2">
 
-
+            <Menu/>
+            
             <div className="box2">
                 <h1> Login </h1>
                 <input placeholder="Digite seu CPF"></input>

@@ -12,14 +12,14 @@
 
 }
 
-img {
+.menu img {
 
     width: 90px;
     height: 90px;
 
 }
 
-a{
+.menu a{
 
     color: white;
     text-decoration: none;
@@ -29,7 +29,7 @@ a{
 
 }
 
-button {
+.menu button {
 
     background: #933999;
     margin: 0 1em 0 0;
@@ -42,7 +42,7 @@ button {
    
 }
 
-button img {
+.menu button img {
 
     margin: 10%;
     width: 100px;
