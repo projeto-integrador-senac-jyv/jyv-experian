@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 const Menu = () => {
 
     require('./Menu.css')
@@ -17,8 +17,8 @@ const Menu = () => {
                 
             <div className='a'>
 
-                <a href='./Cadastro' > Cadastre-se  </a>
-                <a href='./Login' > Login </a>
+                <Link to='/Cadastro' > Cadastre-se  </Link>
+                <Link to='/Login' > Login </Link>
 
             </div>
 

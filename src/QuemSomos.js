@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 const QuemSomos = () => {
 
     require('./QuemSomos.css')
@@ -41,7 +41,8 @@ const QuemSomos = () => {
 
                 <br/>
 
-                <button className='button3'> Clique aqui! </button>
+                <Link to='/Simulacao' className='button3'> Clique aqui! 
+                </Link>
 
 
             </div>
