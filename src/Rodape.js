@@ -18,11 +18,11 @@ const Rodape = () => {
             <div> 
 
                 <h1> NOSSOS COLABORADORES: </h1>
+                <p> João Rios </p> 
                 <p> Júlia Jóia </p>
                 <p> Júlia Stefany </p>
-                <p> João Rios </p>
-                <p> Yasmin Graciano </p>
                 <p> Vinícius Moura </p>
+                <p> Yasmim Graciano </p>
 
             </div>
 
