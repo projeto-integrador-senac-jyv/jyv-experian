@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
 .rodape{
 
     background: rgb(36, 10, 36);
     color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 10px;
+
+}
+
+.rodape img{
+
+    width: 150px;
+
+}
+
+.contato{
+
+    margin: 10px 30px 10px 30px;
+
+}
+
+.rodape p {
+
+    font-size: 15px;
 
 }

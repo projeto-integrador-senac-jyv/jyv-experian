@@ -8,14 +8,14 @@
     color: white;
     font-size: 25px;
     font-family: 'Koulen', cursive;
-    height: 100px;
+    height: 75px;
 
 }
 
 .menu img {
 
-    width: 90px;
-    height: 90px;
+    max-width: 75px;
+    max-height: 75px;
 
 }
 
@@ -25,7 +25,7 @@
     text-decoration: none;
     text-align: center;
     margin: 50px;
-    margin-bottom: 10px;
+    margin-top: 50px;
 
 }
 
@@ -44,7 +44,7 @@
 
 .menu button img {
 
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 
 }

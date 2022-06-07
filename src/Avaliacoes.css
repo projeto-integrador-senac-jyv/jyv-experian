@@ -4,7 +4,9 @@
 
     font-family: 'Titillium Web', sans-serif;
     background: #933999;
-    color: white;
+    color: rgb(19, 19, 19);
+    background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
+    margin: 0px;
 
 }
 
@@ -13,13 +15,14 @@
     background: #933999;
     display: flex;
     justify-content: space-between;
+    background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
     
 
 }
 
 .av img{
 
-    width: 150px;
+    width: 100px;
     margin: 20px;
 
 }
@@ -31,8 +34,8 @@
     color: white;
     border-radius: 10%;
     box-shadow: 3px 2px 3px #3b1c3d;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 
 }
 
