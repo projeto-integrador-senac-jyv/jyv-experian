@@ -10,5 +10,19 @@
 
 .perguntasf ul{
 
+    list-style-type: none;
+    padding: 0;
     
+}
+
+.perguntasf li{
+
+    background: white;
+
+}
+
+.perguntasf li p{
+
+    display: none;
+
 }

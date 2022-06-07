@@ -4,6 +4,20 @@ const PerguntasFrequentes = () => {
 
     require('./PerguntasFrequentes.css')
 
+    React.useEffect(()=>{
+        const itens = document.querySelectorAll(".perguntasf li h2")
+        for(const item of itens) {
+            item.addEventListener('click', ()=>{
+                const p = item.nextSibling
+                if (p.style.display == 'block'){
+                    p.style.display = 'none'
+                }else{
+                    p.style.display = 'block'
+                }
+            } )
+        }
+    },[])
+
     return ( 
 
         <div className='perguntasf' >
@@ -14,7 +28,7 @@ const PerguntasFrequentes = () => {
 
             <br/>
 
-            <ul>
+            <ul className='listaPerguntas'>
 
                 <li>
 
