@@ -9,16 +9,16 @@ const AnaliseCadastro = () => {
 
     return ( 
 
-        <div className="fundo4">
+        <div className="fundo">
 
             <Menu/>
 
-            <div >
+            <div className="analise" >
                 
-                <h2> Parabéns! Seu cadastro foi efetuado com sucesso. </h2>
-                <img src="https://i.imgur.com/Qz3uAWl.png">  </img>
+                <h1> Parabéns! Seu cadastro foi efetuado com sucesso. </h1>
+                <img  width={500} src="https://i.imgur.com/Qz3uAWl.png"/>  
 
-                <h3> Aguarde, pois sua solicitação está em análise  </h3>
+                <h1> Aguarde, pois sua solicitação está em análise...  </h1>
                 
                 
             </div>
@@ -27,6 +27,6 @@ const AnaliseCadastro = () => {
         </div>
 
      );
-}
+};
  
 export default AnaliseCadastro;
