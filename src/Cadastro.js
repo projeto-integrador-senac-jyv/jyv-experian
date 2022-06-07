@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import Rodape from './Rodape';
 
 function Cadastro() {
 
@@ -31,7 +32,7 @@ function Cadastro() {
                 <br/>
                 <button className="button1"> ENVIAR </button>
             </div>
-
+            <Rodape/>
         </div>
     );
 }
