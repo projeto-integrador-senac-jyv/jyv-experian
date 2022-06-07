@@ -6,13 +6,11 @@
     background-position: center;
     width: 100%;
     height: 950px;
+    
 }
 
-h2{
-    color: #933999;
-}
 
-.button3{
+.button3 {
     width: 140px;
     height: 50px ;
     background: #933999;
@@ -23,11 +21,11 @@ h2{
 
 .box3{
     font-family:'Titillium Web', sans-serif;
-    justify-content: center;
+    justify-content: space-between;
     border: 5px 10px 5px;
     border-radius: 30px;
     box-shadow: 3px 2px 3px #933999;
-    margin: 65px auto;
+    margin: 150px auto;
     width: 550px;
     padding: 30px;
     text-align: center;
@@ -48,4 +46,27 @@ select{
     height: 45px;
     width: 81%;
     font-size: 19px;
+}
+
+.fundo3{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo img{
+
+    width: 500px;
+    height: 500px;
+    margin-top: 30px ;
+    padding-left: 300px;
+    
+}
+
+h2 {
+    margin-top: 70px ;
+    padding-left: 200px;
+    color: #933999;
+    font-size: 50px;
 }
