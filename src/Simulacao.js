@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from "./Menu";
-
+import Rodape from './Rodape';
 
 function Simulacao() {
 
@@ -78,6 +78,8 @@ function Simulacao() {
             </div>
 
         </div>
+
+        <Rodape/>
 
    </div>
 
