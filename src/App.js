@@ -3,6 +3,7 @@ import Cadastro from './Cadastro';
 import Login from './Login';
 import Inicio from './Inicio';
 import Simulacao from './Simulacao';
+import AnaliseCadastro from './AnaliseCadastro';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -17,6 +18,7 @@ function App () {
                 <Route path="/cadastro" element={<Cadastro />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/simulacao"element={<Simulacao/>}/>
+                <Route path="/AnaliseCadastro" element={<AnaliseCadastro/>}/>
             </Routes>
         </div>
     );
