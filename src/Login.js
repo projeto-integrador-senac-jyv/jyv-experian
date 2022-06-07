@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import Rodape from './Rodape';
 
 function Login() {
 
@@ -22,6 +23,8 @@ function Login() {
                 <br/>
                 <button className="button2"> ENTRAR </button>
             </div>
+            
+            <Rodape/>
 
         </div>
     );

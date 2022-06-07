@@ -13,12 +13,12 @@ function Simulacao() {
     <div className="fundo">
         <Menu/> 
         
-      <h1>    SIMULE SEU EMPRÉSTIMO PESSOAL </h1>
+      
                 
            
       
         <div className="box3">
-
+            <h2>    SIMULE SEU EMPRÉSTIMO PESSOAL </h2>
             <div >
                 <input placeholder="Informe  seu CPF"></input>
                 <br/>
@@ -31,12 +31,16 @@ function Simulacao() {
                 <br/>
             </div>
 
+                
+
+
             <div >
         
                 <label for="Banco"></label>
 
                 <select name="Banco" id=" Banco ">
-                <option value="Escolha um Banco" disabled>Escolha um Banco</option>
+
+                    <option value="Escolha um Banco" >Escolha um Banco</option>
                     <option value="Brasil">Brasil</option>
                     <option value="Bradesco">Bradesco</option>
                     <option value="Santander">Santander</option>
