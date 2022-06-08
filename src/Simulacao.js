@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from "./Menu";
 import Rodape from './Rodape';
+import {Link} from "react-router-dom";
 
 function Simulacao() {
 
@@ -73,7 +74,7 @@ function Simulacao() {
 
                 <br/>
                 <br/>
-                <button className="button3"> Solicitar Análise </button>
+                <Link to='/AnaliseCadastro' className="button3"> Solicitar Análise </Link>
 
             </div>
 
