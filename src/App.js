@@ -4,6 +4,7 @@ import Login from './Login';
 import Inicio from './Inicio';
 import Simulacao from './Simulacao';
 import AnaliseCadastro from './AnaliseCadastro';
+import AnaliseSimulacao from './AnaliseSimulacao';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -19,6 +20,7 @@ function App () {
                 <Route path="/login" element={<Login />} />
                 <Route path="/simulacao"element={<Simulacao/>}/>
                 <Route path="/AnaliseCadastro" element={<AnaliseCadastro/>}/>
+                <Route path='/AnaliseSimulacao' element= {<AnaliseSimulacao/>}/>
             </Routes>
         </div>
     );
