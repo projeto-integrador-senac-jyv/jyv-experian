@@ -11,12 +11,12 @@ const Menu = () => {
 
             <Link to='/'>
 
-                <img src='https://i.imgur.com/4VKksC4.png' ></img> 
+                <img src='https://i.imgur.com/4VKksC4.png' />
 
             </Link>
             
                 
-            <div className='a'>
+            <div className='linksMenu'>
 
                 <Link to='/Cadastro' > Cadastre-se  </Link>
                 <Link to='/Login' > Login </Link>
@@ -27,7 +27,7 @@ const Menu = () => {
 
                 <button >
 
-                    <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  ></img>
+                    <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
 
                 </button>
 

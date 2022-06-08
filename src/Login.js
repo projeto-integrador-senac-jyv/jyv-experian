@@ -7,11 +7,11 @@ function Login() {
     require("./Login.css")
 
     return (
-        <div className="fundo2">
+        <div className="fundo2 animate__animated animate__flip animate__infinite animate__faster">
 
             <Menu/>
             
-            <div className="box2">
+            <div className="box2 animate__animated animate__fadeIn" >
                 <h1> Login </h1>
                 <input placeholder="Digite seu CPF"></input>
                 <br/>

@@ -25,9 +25,19 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    margin: 50px;
-    margin-top: 50px;
 
+}
+
+.menu .linksMenu{
+
+    margin-top: 15px;
+
+}
+
+.menu .linksMenu a{
+
+    margin: 0px 10px;
+    
 }
 
 .menu button {

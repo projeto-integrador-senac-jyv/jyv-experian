@@ -33,7 +33,7 @@ const PerguntasFrequentes = () => {
                 <li>
 
                     <h2> A JYV É SEGURA? </h2>
-                    <p>
+                    <p className='animate__animated animate__flipInX' >
                     Sim, como as demais instituições sérias e confiáveis, 
                     seguimos estritamente as normas do Banco Central. 
                     Isso significa que não realizamos NENHUM tipo de cobrança antecipada em pedidos de empréstimo, 

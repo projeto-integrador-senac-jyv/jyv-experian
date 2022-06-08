@@ -21,8 +21,8 @@ p{
 .div1{
 
     background: transparent;
-    margin: 5%;
-    padding: 5%;
+    margin: 0;
+    padding: 0;
     color: white;
     font-size: 110%;
     margin-right: 700px;
@@ -32,8 +32,8 @@ p{
 .div2{
 
     background: transparent;
-    margin: 5%;
-    padding: 5%;
+    margin: 0;
+    padding: 0;
     color: rgb(250, 250, 250);
     font-size: 110%;
     text-align: center;

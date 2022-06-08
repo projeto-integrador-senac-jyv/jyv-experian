@@ -32,6 +32,7 @@ const QuemSomos = () => {
                 </h3>
 
             </div>
+            
 
             <div className='div2' >
 
