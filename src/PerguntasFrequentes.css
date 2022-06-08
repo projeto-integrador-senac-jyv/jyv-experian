@@ -6,6 +6,7 @@
     background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
     color: black;
     padding-top: 100px;
+    margin: 0;
 
 }
 
@@ -21,8 +22,8 @@
 
 .perguntasf li{
 
-    background: black;
-    opacity: 0.2;
+    background: rgba(0, 0, 0, 0.363);
+    
     border-radius: 10px;
     
 
