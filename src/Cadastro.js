@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Rodape from './Rodape';
+import {Link} from "react-router-dom";
 
 function Cadastro() {
 
@@ -30,7 +31,7 @@ function Cadastro() {
                 <input placeholder="Confirme sua senha"></input>
                 <br/>
                 <br/>
-                <button className="button1"> ENVIAR </button>
+                <Link to='/AnaliseSimulacao' className="button1"> ENVIAR </Link>
             </div>
             <Rodape/>
         </div>
