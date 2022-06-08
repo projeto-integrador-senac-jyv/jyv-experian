@@ -13,10 +13,12 @@
 .button3 {
     width: 140px;
     height: 50px ;
+    padding: 15px;
     background: #933999;
     color: white;
     border-radius: 15px;
     border: none;
+    text-decoration: none;
 }
 
 .box3{
