@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
+.Adm{
+
+    background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
+    background-position: center;
+    width: 100%;
+    height: 950px;
+    font-family:'Titillium Web', sans-serif;
+
+}
+
+.fundoAdm{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxAdm{
+
+    font-family:'Titillium Web', sans-serif;
+    justify-content: center;
+    border: 5px 10px 5px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px #933999;
+    margin: 180px auto;
+    width: 550px;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    background:#f7d3fa
+
+}
+
+.button4{
+    width: 140px;
+    height: 50px ;
+    padding: 15px;
+    text-decoration: none;
+    background: #933999;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
