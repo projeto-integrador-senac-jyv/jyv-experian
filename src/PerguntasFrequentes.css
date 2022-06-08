@@ -5,6 +5,7 @@
     font-family: 'Titillium Web', sans-serif;
     background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
     color: black;
+    padding-top: 100px;
 
 }
 
@@ -12,12 +13,19 @@
 
     list-style-type: none;
     padding: 0;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: block rgb(36, 10, 36);
     
 }
 
 .perguntasf li{
 
-    background: white;
+    background: black;
+    opacity: 0.2;
+    border-radius: 10px;
+    
+
 
 }
 
