@@ -9,11 +9,11 @@ const Menu = () => {
 
         <div className='menu'>
 
-            <button>
+            <Link to='/'>
 
                 <img src='https://i.imgur.com/4VKksC4.png' ></img> 
 
-            </button>
+            </Link>
             
                 
             <div className='a'>
