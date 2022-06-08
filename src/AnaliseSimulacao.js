@@ -1,11 +1,10 @@
-
 import Menu from "./Menu";
 import Rodape from "./Rodape";
 
 
-const AnaliseCadastro = () => {
+const AnaliseSimulacao = () => {
     
-    require('./AnaliseCadastro.css')
+    require('./AnaliseSimulacao.css')
 
     return ( 
 
@@ -15,9 +14,9 @@ const AnaliseCadastro = () => {
 
             <div className="analise" >
                 
-                <h1 > Parabéns! Sua simulação foi efetuada com sucesso. </h1>
+                <h1 > Parabéns! Seu cadastro foi efetuado com sucesso. </h1>
                 <img  width={500} src="https://i.imgur.com/Qz3uAWl.png"/>  
-                <h1> Aguarde, pois sua solicitação está em análise...  </h1>
+                <h1> Aguarde, pois suas informações está em análise...  </h1>
                 
                 
             </div>
@@ -28,4 +27,4 @@ const AnaliseCadastro = () => {
      );
 };
  
-export default AnaliseCadastro;
+export default AnaliseSimulacao;
