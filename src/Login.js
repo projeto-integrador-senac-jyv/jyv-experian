@@ -19,7 +19,7 @@ function Login() {
                 <input placeholder="Digite seu e-mail"></input>
                 <br/>
                 <br/>
-                <input placeholder="Digite sua senha"></input>
+                <input type="password" placeholder="Digite sua senha"></input>
                 <br/>
                 <br/>
                 <Link to='/Simulacao' className="button2"> ENTRAR </Link>

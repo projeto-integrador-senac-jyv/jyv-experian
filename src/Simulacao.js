@@ -47,7 +47,7 @@ function Simulacao() {
                     <select name="Banco" id=" Banco ">
 
                         <option value="Escolha um Banco" >Escolha um Banco</option>
-                        <option value="Brasil">Brasil</option>
+                        <option value="Banco do Brasil">Banco do Brasil</option>
                         <option value="Bradesco">Bradesco</option>
                         <option value="Santander">Santander</option>
                         <option value="Itaú">Itaú</option>
