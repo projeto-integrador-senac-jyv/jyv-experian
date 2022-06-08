@@ -57,7 +57,7 @@ const PerguntasFrequentes = () => {
                     <h2> QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA PEDIR MEU EMPRÉSTIMO? </h2>
                     <p> 
                         Para o empréstimo pessoal, alguns documentos podem ser solicitados como comprovantes. Sendo eles:
-                        CPF,TELEFONE,CNPJ(Caso Você seja administrador), DATA DE NASCIMENTO, etc...
+                        CPF, TELEFONE, CNPJ (Caso você seja empreendedor), DATA DE NASCIMENTO, etc...
                     </p>
 
                 </li>
@@ -67,7 +67,7 @@ const PerguntasFrequentes = () => {
                     <h2> EU CONSIGO UM CRÉDITO PESSOAL COM NOME NEGATIVO? </h2>
                     <p>
                         Várias empresas disponibilizam empréstimo pessoal para consumidores com dívidas em aberto. 
-                        Cadastre-se gratuitamente na JIV EMPRÉSTIMOS, 
+                        Cadastre-se gratuitamente na JYV EXPERIAN, 
                         faça uma simulação e veja as ofertas que podem estar disponíveis a você.
                     </p>
 
