@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
-.analise h1{
- color: black;
- font-family: 'Titillium Web', sans-serif;
-};
+.analise {
+ 
+ background-image:url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
+ width: 100%;
+ margin: auto;
+ height: 850px;
+}
 
-.fundo{
-    background-image: url('https://i.imgur.com/SkGXsFL.jpg');
-    background-position: center;
-    width: 100%;
-    height: 950px;
-    
-};
+.analise h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    padding-top: 73px;
+
+}
