@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Rodape from './Rodape';
+import {Link} from "react-router-dom";
 
 function Login() {
 
@@ -21,7 +22,7 @@ function Login() {
                 <input placeholder="Digite sua senha"></input>
                 <br/>
                 <br/>
-                <button className="button2"> ENTRAR </button>
+                <Link to='/Simulacao' className="button2"> ENTRAR </Link>
             </div>
             
             <Rodape/>
