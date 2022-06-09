@@ -6,7 +6,7 @@ const Rodape = () => {
 
     return (  
     
-        <div className='rodape'>
+        <div id='rodape' className='rodape'>
 
             <div className='contato'>
 

@@ -22,7 +22,7 @@ function Login() {
                 <input type="password" placeholder="Digite sua senha"></input>
                 <br/>
                 <br/>
-                <label for="Usuário"></label>
+                {/* <label for="Usuário"></label>
 
                 <select name="Usuário" id="Usuário ">
 
@@ -33,7 +33,7 @@ function Login() {
                 </select>
 
                 <br/>
-                <br/>
+                <br/> */}
                 <Link to='/Simulacao' className="button2"> ENTRAR </Link>
             </div>
             

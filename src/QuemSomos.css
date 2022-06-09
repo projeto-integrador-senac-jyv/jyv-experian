@@ -15,9 +15,11 @@
 
 }
 
-/* .container div{
-    margin: 50px;
-} */
+.container div{
+    /* margin: 50px; */
+    width: 500px;
+    text-align: center;
+} 
 
 p{
     font-family: 'Titillium Web', sans-serif;
@@ -31,7 +33,7 @@ p{
     color: white;
     font-size: 110%;
     /* margin-right: 200px; */
-    max-width: 500px;
+    /* max-width: 500px; */
 
 }
 
@@ -45,7 +47,7 @@ p{
 }
 
 .div2 img{
-    max-width: 500px;
+    max-width: 100%;
 }
 
 .div3{
@@ -57,7 +59,7 @@ p{
     font-size: 110%;
     text-align: center;
     /* margin-right: 200px; */
-    max-width: 500px;
+    /* max-width: 500px; */
 
 }
 

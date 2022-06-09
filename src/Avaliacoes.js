@@ -6,7 +6,7 @@ const Avaliacoes = () => {
 
     return ( 
 
-        <div className='titulo'>
+        <div id="avaliacoes" className='titulo'>
 
             <br/>
             <br/>

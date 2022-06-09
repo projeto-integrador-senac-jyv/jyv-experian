@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
 
-.fundo{
+#simulacao .fundo{
     background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
     background-position: center;
     width: 100%;
@@ -58,7 +58,7 @@ select{
 
 }
 
-.titulo img{
+#simulacao .titulo img{
 
     width: 500px;
     height: 500px;
@@ -67,7 +67,7 @@ select{
     
 }
 
-h2 {
+#simulacao .titulo h2 {
     margin-top: 70px ;
     padding-left: 200px;
     color: #933999;

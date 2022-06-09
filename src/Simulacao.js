@@ -11,7 +11,7 @@ function Simulacao() {
 
 
   return (
-    <div className="fundo">
+    <div id="simulacao" className="fundo">
 
         <Menu/> 
 
