@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
-.container {
+.container{
 
     color: rgb(37, 7, 32);
     font-family: 'Comfortaa', cursive;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-image: url('https://i.imgur.com/uNcTqBo.png');
     background-size: cover;
     background-position: center;
@@ -14,6 +15,10 @@
 
 }
 
+/* .container div{
+    margin: 50px;
+} */
+
 p{
     font-family: 'Titillium Web', sans-serif;
 }
@@ -21,33 +26,38 @@ p{
 .div1{
 
     background: transparent;
-    margin: 0;
+    /* margin: 150px; */
     padding: 0;
     color: white;
     font-size: 110%;
-    margin-right: 700px;
+    /* margin-right: 200px; */
+    max-width: 500px;
 
 }
 
 .div2{
+    /* margin: 100px;
+    margin-top: 25px;
+    margin-right: 300px; */
+    padding: 20px;
+    position: center;
 
-    
-    width: 1em;
-    height: 1em;
-    padding: 5em;
-    background: red;
+}
 
+.div2 img{
+    max-width: 500px;
 }
 
 .div3{
 
     background: transparent;
-    margin: 0;
+    /* margin: 150px; */
     padding: 0;
     color: rgb(250, 250, 250);
     font-size: 110%;
     text-align: center;
-    margin-right: 100px;
+    /* margin-right: 200px; */
+    max-width: 500px;
 
 }
 
