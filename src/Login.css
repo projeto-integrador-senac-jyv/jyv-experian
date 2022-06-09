@@ -42,3 +42,11 @@ input{
     height: 40px;
     font-size: 20px;
 }
+select{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 45px;
+    width: 81%;
+    font-size: 19px;
+}

@@ -22,6 +22,18 @@ function Login() {
                 <input type="password" placeholder="Digite sua senha"></input>
                 <br/>
                 <br/>
+                <label for="Usuário"></label>
+
+                <select name="Usuário" id="Usuário ">
+
+                    <option value="Quem é você?" >Quem é você?</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Cliente">Cliente</option>
+        
+                </select>
+
+                <br/>
+                <br/>
                 <Link to='/Simulacao' className="button2"> ENTRAR </Link>
             </div>
             

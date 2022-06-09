@@ -13,7 +13,7 @@ function Cadastro() {
             
             <div className="box animate__animated animate__fadeIn ">
 
-                <h1> Cadastro </h1>
+                <h1 > Cadastro </h1>
                 <input placeholder="Digite seu nome completo"></input>
                 <br/>
                 <br/>
