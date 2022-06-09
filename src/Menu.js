@@ -18,7 +18,7 @@ const Menu = () => {
                 
             <div className='linksMenu'>
 
-                <Link to='/Cadastro' > Cadastre-se / </Link>
+                <Link to='/Cadastro' > Cadastre-se </Link>
                 <Link to='/Login' > Login </Link>
 
             </div>

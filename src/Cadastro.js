@@ -35,7 +35,9 @@ function Cadastro() {
                 <Link to='/AnaliseSimulacao' className="button1"> ENVIAR </Link>
                 
             </div>
+            
             <Rodape/>
+
         </div>
     );
 }

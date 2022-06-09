@@ -55,6 +55,19 @@ const Avaliacoes = () => {
 
                 </div>
 
+                <div className='avs' >
+
+                    <h2> Rodrigo </h2>
+                    <img src='https://cdn-icons-png.flaticon.com/512/4305/4305692.png'></img>
+                    
+                    <p>
+                    Gostei bastante do site e do atendimento. Prontamente foi atendida a minha solicitação de alteração de prazo de pagamento.
+                    </p>
+
+                    <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>
+
+                </div>
+
             </div>
 
 

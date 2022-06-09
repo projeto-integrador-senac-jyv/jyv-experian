@@ -39,6 +39,8 @@ input{
     width: 80%;
     height: 40px;
     font-size: 20px;
+    border-radius: 10px;
+    border-color: #933999;
 }
 
 select{
@@ -48,6 +50,8 @@ select{
     height: 45px;
     width: 81%;
     font-size: 19px;
+    border-radius: 10px;
+    border-color: #933999;
 }
 
 .fundo3{
