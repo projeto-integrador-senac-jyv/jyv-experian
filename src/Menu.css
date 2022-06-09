@@ -29,7 +29,7 @@
 
 }
 
-.menu .linksMenu{
+/* .menu .linksMenu{
 
     margin-top: 15px;
 
@@ -39,12 +39,12 @@
 
     margin: 0px 10px;
     
-}
+} */
 
 .menu button {
 
     background: #933999;
-    margin: 0 1em 0 0;
+    /* margin: 0 1em 0 0; */
     padding-left: none;
     padding-right: none;
     padding: 0;
@@ -59,4 +59,8 @@
     width: 70px;
     height: 70px;
 
+}
+
+@media only screen and (max-device-width: 850px) {
+    .menu { width:100%; } 
 }

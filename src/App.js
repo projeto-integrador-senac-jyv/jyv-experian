@@ -6,6 +6,8 @@ import Simulacao from './Simulacao';
 import AnaliseCadastro from './AnaliseCadastro';
 import AnaliseSimulacao from './AnaliseSimulacao';
 import Adm from './Adm';
+import AdmCadastro from './AdmCadastro';
+import AdmEmprestimos from './AdmEmprestimos';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -23,6 +25,8 @@ function App () {
                 <Route path="/AnaliseCadastro" element={<AnaliseCadastro/>}/>
                 <Route path='/AnaliseSimulacao' element= {<AnaliseSimulacao/>}/>
                 <Route path="/Adm" element={<Adm/>}/>
+                <Route path="/AdmCadastro" element={<AdmCadastro/>}/>
+                <Route path="/AdmEmprestimos" element={<AdmEmprestimos/>}/>
             </Routes>
         </div>
     );

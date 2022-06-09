@@ -43,3 +43,11 @@ input{
     font-size: 20px;
 }
 
+@media only screen and (max-device-width: 850px) {
+
+    .menu {width: 10em;}
+    .fundo { width:50em; } 
+    .box { width: 10em; }
+
+}
+

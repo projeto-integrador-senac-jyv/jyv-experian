@@ -32,3 +32,7 @@
 .rodape h2{
     color: white;
 }
+
+@media only screen and (max-device-width: 850px) {
+    .rodape { width:100%; } 
+}
