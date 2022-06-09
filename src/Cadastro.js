@@ -20,7 +20,7 @@ function Cadastro() {
                 <input placeholder="Digite sua data de nascimento"></input>
                 <br/>
                 <br/>
-                <input placeholder="Digite seu CPF"></input>
+                <input placeholder="Digite seu CPF ou CNPJ"></input>
                 <br/>
                 <br/>
                 <input placeholder="Digite seu e-mail"></input>

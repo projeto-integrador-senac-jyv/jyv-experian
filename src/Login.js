@@ -13,7 +13,7 @@ function Login() {
             
             <div className="box2 animate__animated animate__fadeIn" >
                 <h1> Login </h1>
-                <input placeholder="Digite seu CPF"></input>
+                <input placeholder="Digite seu CPF ou CNPJ"></input>
                 <br/>
                 <br/>
                 <input placeholder="Digite seu e-mail"></input>
