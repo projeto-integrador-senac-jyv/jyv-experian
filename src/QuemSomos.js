@@ -32,9 +32,14 @@ const QuemSomos = () => {
                 </h3>
 
             </div>
-            
 
-            <div className='div2' >
+            <div  className='div2' >
+
+                <img src='https://i.imgur.com/Mx2g0xs.png'/>
+
+            </div>
+
+            <div className='div3' >
 
                 <br/>
 
@@ -44,7 +49,6 @@ const QuemSomos = () => {
 
                 <Link to='/Simulacao' className='button3'> Clique aqui! 
                 </Link>
-
 
             </div>
 

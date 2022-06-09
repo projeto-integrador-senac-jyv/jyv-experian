@@ -11,7 +11,8 @@ function Cadastro() {
 
             <Menu/>
             
-            <div className="box">
+            <div className="box animate__animated animate__fadeIn ">
+
                 <h1> Cadastro </h1>
                 <input placeholder="Digite seu nome completo"></input>
                 <br/>
@@ -32,6 +33,7 @@ function Cadastro() {
                 <br/>
                 <br/>
                 <Link to='/AnaliseSimulacao' className="button1"> ENVIAR </Link>
+                
             </div>
             <Rodape/>
         </div>

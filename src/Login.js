@@ -7,7 +7,7 @@ function Login() {
     require("./Login.css")
 
     return (
-        <div className="fundo2 animate__animated animate__flip animate__infinite animate__faster">
+        <div className="fundo2">
 
             <Menu/>
             

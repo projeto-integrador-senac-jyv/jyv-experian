@@ -46,7 +46,7 @@ const PerguntasFrequentes = () => {
                 <li>
 
                     <h2> QUEM PODE FAZER UM PEDIDO DE EMPRÉSTIMO NA JYV? </h2>
-                    <p>
+                    <p className='animate__animated animate__flipInX' >
                         Qualquer pessoa maior de 18 anos que possua um comprovante de renda.
                     </p>
 
@@ -55,7 +55,7 @@ const PerguntasFrequentes = () => {
                 <li>
 
                     <h2> QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA PEDIR MEU EMPRÉSTIMO? </h2>
-                    <p> 
+                    <p className='animate__animated animate__flipInX' > 
                         Para o empréstimo pessoal, alguns documentos podem ser solicitados como comprovantes. Sendo eles:
                         CPF, TELEFONE, CNPJ (Caso você seja empreendedor), DATA DE NASCIMENTO, etc...
                     </p>
@@ -65,7 +65,7 @@ const PerguntasFrequentes = () => {
                 <li>
 
                     <h2> EU CONSIGO UM CRÉDITO PESSOAL COM NOME NEGATIVO? </h2>
-                    <p>
+                    <p className='animate__animated animate__flipInX' >
                         Várias empresas disponibilizam empréstimo pessoal para consumidores com dívidas em aberto. 
                         Cadastre-se gratuitamente na JYV EXPERIAN, 
                         faça uma simulação e veja as ofertas que podem estar disponíveis a você.
