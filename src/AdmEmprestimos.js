@@ -12,11 +12,25 @@ const AdmEmprestimos = () => {
 
             <Menu/>
 
-            <br/>
-            <br/>
-            <h1> Novas Solicitações: </h1>
-            <br/>
-            <br/>
+            <div>
+
+                <br/>
+                <br/>
+                <h1> Novas Solicitações: </h1>
+                <br/>
+                <br/>
+
+            </div>
+
+            <div className="Caixa" >
+
+                <h4> CPF ou CNPJ: </h4>
+                <h4> E-Mail: </h4>
+                <h4> Valor: </h4>
+                <h4> Banco: </h4>
+                <h4> Forma de parcelamento: </h4>
+
+            </div>
 
             <Rodape/>
 

@@ -2,17 +2,22 @@
 
 
 .fundo{
+
     background-image: url('https://i.pinimg.com/736x/74/a7/a5/74a7a53215161c19aeacb70e9d679a2e.jpg');
     background-position: center;
     width: 100%;
     height: 950px;
+
 }
 
 .fundo h1{
+
     color: #933999;
+
 }
 
 .button1{
+
     width: 140px;
     height: 50px ;
     padding: 15px;
@@ -21,9 +26,11 @@
     color: white;
     border-radius: 15px;
     border: none;
+
 }
 
 .box{
+
     font-family:'Titillium Web', sans-serif;
     justify-content: center;
     border: 5px 10px 5px;
@@ -35,12 +42,17 @@
     text-align: center;
     font-size: 22px;
     background:#f7d3fa
+
 }
 
 input{
+
     width: 80%;
     height: 40px;
     font-size: 20px;
+    border-radius: 10px;
+    border-color: #933999;
+
 }
 
 @media only screen and (max-device-width: 850px) {
