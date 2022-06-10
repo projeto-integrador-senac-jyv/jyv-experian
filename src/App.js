@@ -10,6 +10,7 @@ import AdmCadastro from './AdmCadastro';
 import AdmEmprestimos from './AdmEmprestimos';
 import MiniMenu from './MiniMenu';
 import MeuPerfil from './MeuPerfil';
+import Parceirias from './Parceirias';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -31,6 +32,8 @@ function App () {
                 <Route path="/AdmEmprestimos" element={<AdmEmprestimos/>}/>
                 <Route path="/MiniMenu" element={<MiniMenu/>}/>
                 <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
+                <Route path="/Parceirias" element={<Parceirias/>}/>
+
             </Routes>
         </div>
     );

@@ -7,7 +7,7 @@ function MeuPerfil() {
     require("./MeuPerfil.css")
 
     return (
-        <div id="simulacao" className="fundo">
+        <div id="MeuPerfil" className="fundo">
 
             <Menu/>
             
