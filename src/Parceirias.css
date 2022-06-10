@@ -28,17 +28,13 @@
 
 
 
-.fundo6{
 
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Titillium Web', sans-serif;
-
-};
 
 .Parceiros{
 
     display: flex;
     justify-content: space-between;
+    
+    
 }
     
