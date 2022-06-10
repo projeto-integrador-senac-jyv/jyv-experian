@@ -5,10 +5,10 @@ import Rodape from './Rodape';
 
 function Parceirias() {
 
-    require("./Parceirias.css")
+    require("./Parcerias.css")
 
     return (
-        <div id="Parceirias" className="fundo">
+        <div id="Parcerias" className="fundo">
 
             <Menu/>
             

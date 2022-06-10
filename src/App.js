@@ -11,7 +11,7 @@ import AdmEmprestimos from './AdmEmprestimos';
 import FaleConosco from './FaleConosco';
 import MiniMenu from './MiniMenu';
 import MeuPerfil from './MeuPerfil';
-import Parceirias from './Parceirias';
+import Parcerias from './Parcerias';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -34,7 +34,7 @@ function App () {
                 <Route path="/FaleConosco" element={<FaleConosco/>}/>
                 <Route path="/MiniMenu" element={<MiniMenu/>}/>
                 <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
-                <Route path="/Parceirias" element={<Parceirias/>}/>
+                <Route path="/Parcerias" element={<Parcerias/>}/>
 
             </Routes>
         </div>
