@@ -20,7 +20,7 @@ const PerguntasFrequentes = () => {
 
     return ( 
 
-        <div className='perguntasf' >
+        <div id='perguntas' className='perguntasf' >
 
             <br/>
 

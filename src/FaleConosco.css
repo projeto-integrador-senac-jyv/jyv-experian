@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
+
+.fale{
+
+    background-image: url('./imagens/fundo_branco.jpg');
+    background-position: center;
+    margin: 0;
+    
+}
+
+.faleconosco{
+
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.faleconosco h1{
+
+    font-size: 70px;
+    color: #933999;
+   
+}
+
+.faleconosco p{
+
+    font-size: 30px;
+    color: black;
+    
+}
+
+
+.info img{
+
+    width: 70px;
+    height: 70px;
+
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.atendimento{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.info iframe{
+    margin-top: 50px;
+}
+
+

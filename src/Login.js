@@ -7,7 +7,7 @@ function Login() {
     require("./Login.css")
 
     return (
-        <div className="fundo2">
+        <div id='login' className="fundo2">
 
             <Menu/>
             

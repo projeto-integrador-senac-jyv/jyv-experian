@@ -8,6 +8,7 @@ import AnaliseSimulacao from './AnaliseSimulacao';
 import Adm from './Adm';
 import AdmCadastro from './AdmCadastro';
 import AdmEmprestimos from './AdmEmprestimos';
+import FaleConosco from './FaleConosco';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -27,6 +28,7 @@ function App () {
                 <Route path="/Adm" element={<Adm/>}/>
                 <Route path="/AdmCadastro" element={<AdmCadastro/>}/>
                 <Route path="/AdmEmprestimos" element={<AdmEmprestimos/>}/>
+                <Route path="/FaleConosco" element={<FaleConosco/>}/>
             </Routes>
         </div>
     );

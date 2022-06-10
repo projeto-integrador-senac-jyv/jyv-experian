@@ -21,7 +21,7 @@
     text-align: center;
 } 
 
-p{
+#quemsomos p{
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -78,7 +78,7 @@ p{
     text-decoration: none;
 }
 
-h3{
+#quemsomos h3{
 
     margin: 2px;
 

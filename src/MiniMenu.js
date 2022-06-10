@@ -7,7 +7,7 @@ const MiniMenu = () => {
 
     return ( 
 
-        <div className='mini_menu' >
+        <div id='minimenu' className='mini_menu' >
 
 
             <a href='#'  > Meu perfil </a>

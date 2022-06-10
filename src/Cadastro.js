@@ -7,7 +7,7 @@ function Cadastro() {
     require("./Cadastro.css")
 
     return (
-        <div className="fundo">
+        <div id='cadastro' className="fundo">
 
             <Menu/>
             

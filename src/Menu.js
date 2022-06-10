@@ -7,7 +7,7 @@ const Menu = () => {
 
     return ( 
 
-        <div className='menu'>
+        <div id='menu' className='menu'>
 
             <Link to='/'>
 

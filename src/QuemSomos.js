@@ -6,7 +6,7 @@ const QuemSomos = () => {
 
     return (  
 
-        <div className='container' >
+        <div id='quemsomos' className='container' >
 
             <div className='div1'>
 
