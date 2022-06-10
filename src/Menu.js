@@ -1,4 +1,5 @@
 import React from 'react';
+import MiniMenu from './MiniMenu';
 import {Link} from "react-router-dom";
 
 const Menu = () => {
@@ -25,11 +26,11 @@ const Menu = () => {
 
             <div>
 
-                <button >
+                <Link to='/MiniMenu'>
 
                     <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
 
-                </button>
+                </Link>
 
             </div>
 

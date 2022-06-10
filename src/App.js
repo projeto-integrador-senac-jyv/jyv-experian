@@ -9,6 +9,9 @@ import Adm from './Adm';
 import AdmCadastro from './AdmCadastro';
 import AdmEmprestimos from './AdmEmprestimos';
 import FaleConosco from './FaleConosco';
+import MiniMenu from './MiniMenu';
+import MeuPerfil from './MeuPerfil';
+import Parceirias from './Parceirias';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -29,6 +32,10 @@ function App () {
                 <Route path="/AdmCadastro" element={<AdmCadastro/>}/>
                 <Route path="/AdmEmprestimos" element={<AdmEmprestimos/>}/>
                 <Route path="/FaleConosco" element={<FaleConosco/>}/>
+                <Route path="/MiniMenu" element={<MiniMenu/>}/>
+                <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
+                <Route path="/Parceirias" element={<Parceirias/>}/>
+
             </Routes>
         </div>
     );

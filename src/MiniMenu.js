@@ -1,5 +1,7 @@
 import React from 'react';
- 
+import Menu from "./Menu";
+import Rodape from './Rodape';
+import {Link} from "react-router-dom";
 
 const MiniMenu = () => {
 
@@ -7,18 +9,23 @@ const MiniMenu = () => {
 
     return ( 
 
-        <div id='minimenu' className='mini_menu' >
+        <div id='MiniMenu' className='fundo_mini_menu' >
 
+            <Menu/>
 
-            <a href='#'  > Meu perfil </a>
-            <br/>
-            <a href='#' > Parceiros </a>
-            <br/>
-            <a href='#' > Fale conosco </a>
-            <br/>
-            <a href='#' > Sair </a>
+            <div className='container_mini_menu' >
+
+                <Link to=''  > Meu perfil </Link>
+                <br/>
+                <Link to='' > Parceiros </Link>
+                <br/>
+                <Link to='' > Fale conosco </Link>
+                <br/>
+                <Link to='' > Sair </Link>
+
+            </div>
             
-            
+            <Rodape/>
 
         </div>
 

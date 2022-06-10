@@ -47,11 +47,18 @@ function Simulacao() {
                     <select name="Banco" id=" Banco ">
 
                         <option value="Escolha um Banco" >Escolha um Banco</option>
+                        <option value="Banrisul">Banco Banrisul </option>
+                        <option value="Bradesco">Banco do Bradesco</option>
                         <option value="Banco do Brasil">Banco do Brasil</option>
-                        <option value="Bradesco">Bradesco</option>
-                        <option value="Santander">Santander</option>
-                        <option value="Itaú">Itaú</option>
+                        <option value="Caixa">Banco Caixa</option>
+                        <option value="Inter">Banco Inter</option>
+                        <option value="Itaú">Banco do Itaú</option>
+                        <option value="Santander">Banco Santander</option>
+                        <option value="Votorantim">Banco Votorantim </option>
+                        <option value="Nubank"> Nubank </option>
+                        <option value="PicPay"> PicPay </option>
 
+                        
                     </select>
 
                     <br/>
