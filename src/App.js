@@ -36,6 +36,7 @@ function App () {
                 <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
                 <Route path="/Parcerias" element={<Parcerias/>}/>
 
+                
             </Routes>
         </div>
     );
@@ -43,5 +44,3 @@ function App () {
 }
 export default App;
 
-/// Cor amarela: #daa520;
-/// Cor roxa: #933999;
