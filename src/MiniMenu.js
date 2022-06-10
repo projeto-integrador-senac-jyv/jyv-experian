@@ -1,7 +1,7 @@
+import { faArrowRight, faArrowRightFromBracket, faHandshake, faPersonThroughWindow, faPhone, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import Menu from "./Menu";
-import Rodape from './Rodape';
 import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MiniMenu = () => {
 
@@ -11,21 +11,21 @@ const MiniMenu = () => {
 
         <div id='MiniMenu' className='fundo_mini_menu' >
 
-            <Menu/>
-
             <div className='container_mini_menu' >
 
+                <FontAwesomeIcon icon={faUserAstronaut} />
                 <Link to=''  > Meu perfil </Link>
                 <br/>
+                <FontAwesomeIcon icon={faHandshake} />
                 <Link to='' > Parceiros </Link>
                 <br/>
+                <FontAwesomeIcon icon={faPhone} />
                 <Link to='' > Fale conosco </Link>
                 <br/>
+                <FontAwesomeIcon icon={faArrowRightFromBracket} />
                 <Link to='' > Sair </Link>
 
             </div>
-            
-            <Rodape/>
 
         </div>
 

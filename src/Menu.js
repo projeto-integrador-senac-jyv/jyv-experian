@@ -26,11 +26,8 @@ const Menu = () => {
 
             <div>
 
-                <Link to='/MiniMenu'>
-
-                    <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
-
-                </Link>
+                <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
+                <MiniMenu/>
 
             </div>
 
