@@ -20,7 +20,7 @@ function Simulacao() {
 
             <div className='titulo' >
 
-                <h2> SIMULE SEU EMPRÉSTIMO PESSOAL </h2>
+                <h2 className='h2simulacao'> SIMULE SEU EMPRÉSTIMO PESSOAL </h2>
                 <img src='https://i.imgur.com/lOf8lLY.png' ></img>
                 
             </div>

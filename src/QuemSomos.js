@@ -11,7 +11,7 @@ const QuemSomos = () => {
             <div className='div1'>
 
 
-                <h1> QUEM SOMOS? </h1>
+                <h1 className='h1 q'> QUEM SOMOS? </h1>
 
                 <h3> 
 
@@ -43,7 +43,7 @@ const QuemSomos = () => {
 
                 <br/>
 
-                <h1> SIMULE JÁ </h1>
+                <h1 className='h1 q'> SIMULE JÁ </h1>
 
                 <br/>
 
