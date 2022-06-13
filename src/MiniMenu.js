@@ -17,10 +17,10 @@ const MiniMenu = () => {
                 <Link to=''  > Meu perfil </Link>
                 <br/>
                 <FontAwesomeIcon icon={faHandshake} />
-                <Link to='' > Parceiros </Link>
+                <Link to='/parcerias' > Parceiros </Link>
                 <br/>
                 <FontAwesomeIcon icon={faPhone} />
-                <Link to='' > Fale conosco </Link>
+                <Link to='/faleconosco' > Fale conosco </Link>
                 <br/>
                 <FontAwesomeIcon icon={faArrowRightFromBracket} />
                 <Link to='' > Sair </Link>
