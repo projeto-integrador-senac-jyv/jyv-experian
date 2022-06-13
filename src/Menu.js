@@ -12,7 +12,7 @@ const Menu = () => {
 
             <Link to='/'>
 
-                <img src='https://i.imgur.com/4VKksC4.png' />
+                <img src='https://i.imgur.com/JRjjC8H.png' />
 
             </Link>
             
