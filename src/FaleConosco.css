@@ -6,6 +6,7 @@
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
     margin: 0;
+    font-family: 'Titillium Web', sans-serif;
     
 }
 
@@ -25,7 +26,7 @@
 
 .faleconosco p{
 
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     
 }
@@ -33,8 +34,8 @@
 
 .info img{
 
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 
 }
 
