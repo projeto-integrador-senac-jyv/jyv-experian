@@ -14,7 +14,7 @@ const MiniMenu = () => {
             <div className='container_mini_menu' >
 
                 <FontAwesomeIcon icon={faUserAstronaut} />
-                <Link to=''  > Meu perfil </Link>
+                <Link to='/perfil'  > Meu perfil </Link>
                 <br/>
                 <FontAwesomeIcon icon={faHandshake} />
                 <Link to='/parcerias' > Parceiros </Link>
