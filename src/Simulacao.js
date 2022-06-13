@@ -53,7 +53,10 @@ function Simulacao() {
                         <option value="Caixa">Banco Caixa</option>
                         <option value="Inter">Banco Inter</option>
                         <option value="Itaú">Banco do Itaú</option>
+                        <option value="Next"> Banco Next </option>
+                        <option value="Pan"> Banco Pan </option>
                         <option value="Santander">Banco Santander</option>
+                        <option value="SIM"> Banco SIM </option>
                         <option value="Nubank"> Nubank </option>
                         <option value="PicPay"> PicPay </option>
 
