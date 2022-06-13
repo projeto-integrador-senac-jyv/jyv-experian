@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Rodape from './Rodape';
+import React from "react";
 import {Link} from "react-router-dom";
 
 function MeuPerfil() {
