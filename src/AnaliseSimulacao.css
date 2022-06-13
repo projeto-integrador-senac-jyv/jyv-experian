@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
-.analise {
- 
+#AnaliseSimulacao .analise {
     background-image: url('./imagens/fundo_branco.jpg');
+    background-position: center;
     width: 100%;
-    margin: auto;
-    height: 850px;
-    
-}
-
-.analise h1{
-
-    color: rgb(0, 0, 0);
+    height: 700px;
+    margin-top: 0; 
+    padding: 48px;
+    color: black;
     font-family: 'Titillium Web', sans-serif;
-    margin-top: 0;
-    padding-top: 73px;
-
 }

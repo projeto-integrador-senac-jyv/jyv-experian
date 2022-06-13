@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
 
-.fundo{
+.cadastro{
 
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
     width: 100%;
     height: 950px;
-
-}
-
-.fundo h1{
-
     color: #933999;
 
 }
@@ -58,7 +53,7 @@ input{
 @media only screen and (max-device-width: 850px) {
 
     .menu {width: 10em;}
-    .fundo { width:50em; } 
+    .cadastro { width:50em; } 
     .box { width: 10em; }
 
 }

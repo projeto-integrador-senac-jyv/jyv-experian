@@ -9,11 +9,11 @@ const AnaliseCadastro = () => {
 
     return ( 
 
-        <div>
+        <div id='AnaliseCadastro'>
 
             <Menu/>
 
-            <div className="analise" >
+            <div className="fundo">
                 
                 <h1 > Parabéns! Sua simulação foi efetuada com sucesso. </h1>
                 <img  width={500} src="https://i.imgur.com/Qz3uAWl.png"/>  
