@@ -9,7 +9,7 @@ const MiniMenu = () => {
 
     return ( 
 
-        <div id='MiniMenu' className='fundo_mini_menu' >
+        <div id='MiniMenu' className='fundo_mini_menu animate__animated animate__fadeIn' >
 
             <div className='container_mini_menu' >
 

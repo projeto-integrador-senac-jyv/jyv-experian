@@ -25,7 +25,7 @@ function Simulacao() {
                 
             </div>
         
-            <div className="box3">
+            <div className="box3 animate__animated animate__fadeIn">
 
                 <div >
                     <input placeholder="Informe  seu CPF"></input>

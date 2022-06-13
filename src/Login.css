@@ -27,6 +27,12 @@
     border: none;
 }
 
+.button2:hover{
+
+    color: #D4A4FB;
+
+}
+
 .box2{
     font-family:'Titillium Web', sans-serif;
     border: 5px 10px 5px;
@@ -47,6 +53,7 @@ input{
     border-radius: 10px;
     border-color: #933999;
 }
+
 select{
     display: inline-block;
     position: relative;

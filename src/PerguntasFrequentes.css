@@ -31,6 +31,12 @@
 
 }
 
+.perguntasf li:hover{
+
+    background-color: #cb6ce6;
+
+}
+
 .perguntasf li p{
 
     display: none;

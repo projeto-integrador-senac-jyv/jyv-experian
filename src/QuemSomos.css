@@ -78,6 +78,12 @@
     text-decoration: none;
 }
 
+.button3:hover{
+
+    color:#D4A4FB;
+
+}
+
 #quemsomos h3{
 
     margin: 2px;

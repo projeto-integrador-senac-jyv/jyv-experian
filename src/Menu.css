@@ -29,7 +29,14 @@
 
 }
 
- .menu .linksMenu{
+.linksMenu a:hover{
+
+    color: #D4A4FB;
+
+}
+
+
+.menu .linksMenu{
 
     margin-top: 15px;
 

@@ -24,6 +24,12 @@
 
 }
 
+.button1:hover{
+
+    color: #D4A4FB;
+
+}
+
 #cadastro .box{
 
     font-family:'Titillium Web', sans-serif;
