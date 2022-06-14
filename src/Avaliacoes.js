@@ -34,8 +34,8 @@ const Avaliacoes = () => {
                     <img src='https://cdn-icons-png.flaticon.com/512/306/306473.png' ></img>
 
                     <p>
-                        "O dinheiro da Creditas caiu superrápido e aí, deu todo certo! 
-                        Hoje em dia, eu me considero 100% recuperada e eu sou muito grata pelo que a Creditas fez pra mim."
+                        "O dinheiro da JYV caiu super rápido e aí, deu todo certo! 
+                        Hoje em dia, eu me considero 100% recuperada e eu sou muito grata pelo que a JYV fez por mim."
                     </p>
 
                     <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>
