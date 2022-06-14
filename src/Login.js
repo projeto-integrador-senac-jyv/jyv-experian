@@ -24,12 +24,12 @@ function Login() {
                 <br/>
                 <br/>
 
-                <FontAwesomeIcon icon={faAt} />
+                {/* <FontAwesomeIcon icon={faAt} />
                 <br/>
                 <input placeholder="Digite seu e-mail"></input>
 
                 <br/>
-                <br/>
+                <br/> */}
 
                 <FontAwesomeIcon icon={faLock} />
                 <br/>
