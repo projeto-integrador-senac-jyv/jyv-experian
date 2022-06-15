@@ -12,6 +12,7 @@ import FaleConosco from './FaleConosco';
 import MiniMenu from './MiniMenu';
 import MeuPerfil from './MeuPerfil';
 import Parcerias from './Parcerias';
+import MeusEmprestimos from './MeusEmprestimos';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -35,7 +36,7 @@ function App () {
                 <Route path="/MiniMenu" element={<MiniMenu/>}/>
                 <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
                 <Route path="/Parcerias" element={<Parcerias/>}/>
-
+                <Route path="/MeusEmprestimos" element={<MeusEmprestimos/>}/>
                 
             </Routes>
         </div>

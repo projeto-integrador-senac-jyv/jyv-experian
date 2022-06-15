@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.MeusEmprestimos_fundo{
+    
+    background-image: url('./imagens/fundo_branco.jpg');
+    background-position: center;
+    width: 100%;
+    height: 950px;
+    font-family:'Titillium Web', sans-serif;
+    
+}
+
+.MeusEmprestimos_container{
+
+    font-family:'Titillium Web', sans-serif;
+    border: 5px 10px 5px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px #933999;
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 22px;
+    background:#f7d3fa
+
+}
+
+.MeusEmprestimos_display{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.MeusEmprestimos_img{
+
+    margin: 20px;
+
+}
