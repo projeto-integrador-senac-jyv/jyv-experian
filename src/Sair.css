@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
-.container_mini_menu{
+.Sair_container{
 
     font-family:'Titillium Web', sans-serif;
     border: 5px 10px 5px;
@@ -14,14 +14,21 @@
 
 }
 
-.container_mini_menu a{
+.Sair_button{
 
-    color: black;
+    width: 100px;
+    height: 30px ; 
+    padding: 15px;
+    text-decoration: none;
+    background: #933999;
+    color: white;
+    border-radius: 15px;
+    border: none;
 
 }
 
-.container_mini_menu a:hover{
+.Sair_container a{
 
-    color:#8e3c95;
+    color: black;
 
 }
