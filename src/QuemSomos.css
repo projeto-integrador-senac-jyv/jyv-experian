@@ -93,3 +93,30 @@
 .h1 q{
     color: white;
 }
+
+/* @media only screen and (max-device-width: 915px) {
+    .container{
+
+        color: rgb(37, 7, 32);
+        font-family: 'Comfortaa', cursive;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url('https://i.imgur.com/uNcTqBo.png');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .div1{
+
+        color: rgb(255, 255, 255);
+        background: transparent;
+        padding: 0;
+        color: white;
+        font-size: 10px;
+    
+    }
+    
+} */

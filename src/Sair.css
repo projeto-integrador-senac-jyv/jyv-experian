@@ -11,14 +11,14 @@
     font-size: 22px;
     background:#f7d3fa;
     color:black;
+    text-align: center;
 
 }
 
 .Sair_button{
 
-    width: 100px;
-    height: 30px ; 
-    padding: 15px;
+    margin-right: 115px;
+    padding: 10px;
     text-decoration: none;
     background: #933999;
     color: white;
@@ -27,8 +27,28 @@
 
 }
 
-.Sair_container a{
+.Cancelar_button{
 
-    color: black;
+    max-width: 100px;
+    max-height: 100px;
+    text-decoration: none;
+    text-align: center;
+    background: #933999;
+    color: white;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.Links{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Sair_invisivel{
+
+    display: none;
 
 }

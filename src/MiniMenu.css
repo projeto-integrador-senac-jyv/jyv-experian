@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
+#MiniMenu{
+
+    position:absolute;
+    right: 0;
+
+}
+
 .container_mini_menu{
 
     font-family:'Titillium Web', sans-serif;
@@ -23,5 +30,11 @@
 .container_mini_menu a:hover{
 
     color:#8e3c95;
+
+}
+
+.MiniMenu_invisivel{
+
+    display: none;
 
 }

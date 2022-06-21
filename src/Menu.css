@@ -9,7 +9,8 @@
     font-size: 25px;
     font-family: 'Koulen', cursive;
     height: 75px;
- 
+    position: fixed;
+    width: 100%;
 
 }
 
@@ -68,6 +69,15 @@
 
 }
 
-@media only screen and (max-device-width: 850px) {
-    .menu { width:100%; } 
-}
+/* @media only screen and (max-device-width: 915px) {
+    .menu { max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-size: 15px;
+            font-family: 'Koulen', cursive;
+            height: 70px; } 
+
+    .menu img { max-width: 70px;
+                max-height: 70px; }         
+}*/

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
 .rodape{
-    background: rgb(36, 10, 36);
+    background: #240a24;
     color: white;
     display: flex;
     justify-content: space-between;

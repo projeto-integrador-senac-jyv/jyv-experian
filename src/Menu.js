@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 
 const Menu = () => {
 
+    const [exibe_menu, altera_exibemenu] = React.useState(false)
+
     require('./Menu.css')
 
     return ( 
@@ -26,8 +28,8 @@ const Menu = () => {
 
             <div>
 
-                <img src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
-                <MiniMenu/>
+                <img onClick={()=> altera_exibemenu(!exibe_menu)} src='https://icon-library.com/images/menu-png-icon/menu-png-icon-16.jpg'  />
+                <MiniMenu exibe_menu = {exibe_menu} />
 
             </div>
 
