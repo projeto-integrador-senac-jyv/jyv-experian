@@ -1,6 +1,7 @@
 import { faArrowRight, faArrowRightFromBracket, faHandshake, faPersonThroughWindow, faPhone, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import {Link} from "react-router-dom";
+import Sair from './Sair';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MiniMenu = () => {
@@ -23,7 +24,9 @@ const MiniMenu = () => {
                 <Link to='/faleconosco' > Fale conosco </Link>
                 <br/>
                 <FontAwesomeIcon icon={faArrowRightFromBracket} />
-                <Link to='' > Sair </Link>
+                <Link to='/Sair' > Sair </Link>
+
+                <Sair/>
 
             </div>
 
