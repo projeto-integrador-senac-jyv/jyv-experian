@@ -1,4 +1,5 @@
 import React from 'react';
+import API from './API';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
@@ -9,6 +10,7 @@ root.render(
 
     <BrowserRouter>
         <App />
+        <API />
     </BrowserRouter>
 
 );

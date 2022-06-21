@@ -29,7 +29,7 @@ const Adm = () => {
                     <br/>
                     <br/>
 
-                    <Link to='' className="button4" > Analisar </Link>
+                    <Link to='/AdmCadastro' className="button4" > Analisar </Link>
 
                 </div>
 
@@ -40,7 +40,7 @@ const Adm = () => {
                     <br/>
                     <br/>
 
-                    <Link to='' className="button4" > Analisar </Link>
+                    <Link to='/AdmEmprestimos' className="button4" > Analisar </Link>
 
                 </div>
 
