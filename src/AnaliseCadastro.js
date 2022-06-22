@@ -18,11 +18,11 @@ const AnaliseCadastro = () => {
                 <h1 > Parabéns! Sua simulação foi efetuada com sucesso. </h1>
                 <img  width={500} src="https://i.imgur.com/Qz3uAWl.png"/>  
                 <h1> Aguarde, pois sua solicitação está em análise...  </h1>
-                
-                
+                    
             </div>
 
             <Rodape/>
+
         </div>
 
      );
