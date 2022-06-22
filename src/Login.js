@@ -33,7 +33,7 @@ function Login() {
 
                 <FontAwesomeIcon icon={faLock} />
                 <br/>
-                <input type="password" placeholder="Digite sua senha" ></input>
+                <input  minlength="8"  type="password" placeholder="Digite sua senha" required></input>
 
                 <br/>
                 <br/>

@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 
 function Cadastro() {
 
+   
+
     require("./Cadastro.css")
 
     return (
@@ -23,13 +25,13 @@ function Cadastro() {
                 <input placeholder="Digite seu CPF ou CNPJ"></input>
                 <br/>
                 <br/>
-                <input placeholder="Digite seu e-mail"></input>
+                <input required type="email" placeholder="Digite seu e-mail"></input>
                 <br/>
                 <br/>
-                <input  type="password" placeholder="Digite uma senha"></input>
+                <input required minlength="8"  type="password" placeholder="Digite uma senha"></input>
                 <br/>
                 <br/>
-                <input  type="password" placeholder="Confirme sua senha"></input>
+                <input required minlength="8"  type="password" placeholder="Confirme sua senha"></input>
                 <br/>
                 <br/>
                 <Link to='/AnaliseSimulacao' className="button1"> ENVIAR </Link>
