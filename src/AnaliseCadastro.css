@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
 #AnaliseCadastro .fundo{
+    
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
     width: 100%;
@@ -9,6 +10,7 @@
     padding: 48px;
     color: rgb(0, 0, 0);
     font-family: 'Titillium Web', sans-serif;
+
 };
     
 

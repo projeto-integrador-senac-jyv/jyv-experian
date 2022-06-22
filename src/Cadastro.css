@@ -42,11 +42,12 @@
     padding: 30px;
     text-align: center;
     font-size: 22px;
-    background:#f7d3fa
+    background:#f7d3fa;
+    margin-top: 100000000000000000000px;
 
 }
 
-input{
+.cadastro input{
 
     width: 80%;
     height: 40px;
@@ -56,11 +57,10 @@ input{
 
 }
 
-@media only screen and (max-device-width: 850px) {
+/* @media only screen and (max-device-width: 850px) {
 
     .menu {width: 10em;}
     .cadastro { width:50em; } 
     .box { width: 10em; }
 
-}
-
+} */
