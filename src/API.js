@@ -20,7 +20,7 @@ const API = () => {
 
   
   
-    return ( <div><h1>{usuarios==0?"Loading": usuarios[0].nome}</h1>
+    return ( <div><h1>{usuarios==0?"Loading...": usuarios[0].nome}</h1>
     
     
     
