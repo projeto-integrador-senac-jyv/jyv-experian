@@ -13,6 +13,7 @@ import MiniMenu from './MiniMenu';
 import MeuPerfil from './MeuPerfil';
 import Parcerias from './Parcerias';
 import MeusEmprestimos from './MeusEmprestimos';
+import Sair from './Sair';
 import { Routes, Route } from "react-router-dom";
 
 function App () {
@@ -37,6 +38,7 @@ function App () {
                 <Route path="/MeuPerfil" element={<MeuPerfil/>}/>
                 <Route path="/Parcerias" element={<Parcerias/>}/>
                 <Route path="/MeusEmprestimos" element={<MeusEmprestimos/>}/>
+                <Route path="/Sair" element={<Sair/>}/>
                 
             </Routes>
         </div>
@@ -44,4 +46,3 @@ function App () {
 
 }
 export default App;
-

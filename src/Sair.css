@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
+
+.Sair_container{
+
+    font-family:'Titillium Web', sans-serif;
+    border: 5px 10px 5px;
+    border-radius: 30px;
+    max-width: 400px; 
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    background:#f7d3fa;
+    color:black;
+    text-align: center;
+
+}
+
+.Sair_button{
+
+    margin-right: 115px;
+    padding: 10px;
+    text-decoration: none;
+    background: #933999;
+    color: white;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.Cancelar_button{
+
+    max-width: 100px;
+    max-height: 100px;
+    text-decoration: none;
+    text-align: center;
+    background: #933999;
+    color: white;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.Links{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Sair_invisivel{
+
+    display: none;
+
+}
