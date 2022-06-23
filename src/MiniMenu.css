@@ -2,10 +2,9 @@
 
 #MiniMenu{
 
-    position:absolute;
-    right: 0;
+    
 
-}
+} 
 
 .container_mini_menu{
 
@@ -18,6 +17,8 @@
     font-size: 22px;
     background:#f7d3fa;
     color:black;
+    position:absolute;
+    right: 0;
 
 }
 
@@ -38,3 +39,11 @@
     display: none;
 
 }
+
+/* .Sair_centro{
+
+    max-height: 100px;
+    margin: 50px;
+    width: 800px ;
+
+}  */

@@ -17,7 +17,7 @@ const Sair = (props) => {
 
                 <div className='Links'>
 
-                    <Link to='' className='Cancelar_button'> Cancelar </Link>
+                    <Link to='' className='Sair_button'> Cancelar </Link>
                     <Link to='' className='Sair_button'> Sair </Link>
 
                 </div>
