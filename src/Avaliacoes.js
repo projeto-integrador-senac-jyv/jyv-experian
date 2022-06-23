@@ -34,8 +34,8 @@ const Avaliacoes = () => {
                     <img src='https://cdn-icons-png.flaticon.com/512/306/306473.png' ></img>
 
                     <p>
-                        "O dinheiro da JYV caiu super rápido e aí, deu todo certo! 
-                        Hoje em dia, eu me considero 100% recuperada e eu sou muito grata pelo que a JYV fez por mim."
+                        "O dinheiro da JYV caiu super rápido e deu todo certo! 
+                        Me considero recuperado e sou muito grato pelo que a JYV fez por mim."
                     </p>
 
                     <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>
@@ -48,7 +48,7 @@ const Avaliacoes = () => {
                     <img src='https://icons.veryicon.com/png/o/business/multi-color-financial-and-business-icons/user-139.png' ></img>
                     
                     <p>
-                        Eu troquei uma dívida ruim, com juros altos, por uma dívida boa. Agora, tenho controle e posso investir no meu negócio.
+                        "Eu troquei uma dívida ruim, com juros altos, por uma dívida boa. Agora, tenho controle e posso investir no meu negócio."
                     </p>
 
                     <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>
@@ -61,7 +61,7 @@ const Avaliacoes = () => {
                     <img src='https://cdn-icons-png.flaticon.com/512/4305/4305692.png'></img>
                     
                     <p>
-                    Gostei bastante do site e do atendimento. Prontamente foi atendida a minha solicitação de alteração de prazo de pagamento.
+                    "Prontamente foi atendida a minha solicitação de alteração de prazo de pagamento, muito bom!"
                     </p>
 
                     <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>

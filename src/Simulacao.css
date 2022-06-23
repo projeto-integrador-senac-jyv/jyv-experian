@@ -2,6 +2,7 @@
 
 
 .fundo{
+
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
     width: 100%;
@@ -11,6 +12,7 @@
 
 
 .button3 {
+
     width: 140px;
     height: 50px ;
     padding: 15px;
@@ -22,20 +24,25 @@
 }
 
 .box3{
+
     font-family:'Titillium Web', sans-serif;
     justify-content: space-between;
     border: 5px 10px 5px;
     border-radius: 30px;
     box-shadow: 3px 2px 3px #933999;
-    margin: 150px auto;
+    height: 450px;
     width: 550px;
     padding: 30px;
     text-align: center;
     font-size: 22px;
-    background:#f7d3fa
+    background:#f7d3fa;
+    margin-top: 100px;
+    margin-right: 40px;
+
 }
 
-input{
+#simulacao .input{
+
     width: 80%;
     height: 40px;
     font-size: 20px;
@@ -43,7 +50,8 @@ input{
     border-color: #933999;
 }
 
-select{
+#simulacao .select{
+
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -67,13 +75,12 @@ select{
     width: 500px;
     height: 500px;
     margin-top: 30px ;
-    padding-left: 300px;
     
 }
 
 #simulacao .titulo h2 {
-    margin-top: 70px ;
-    padding-left: 200px;
+   
+    padding-left: 50px;
     color: #933999;
     font-size: 50px;
 }
