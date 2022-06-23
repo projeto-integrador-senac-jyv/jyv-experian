@@ -29,7 +29,12 @@ const MiniMenu = (props) => {
                 <br/>
                 <FontAwesomeIcon icon={faArrowRightFromBracket} />
                 <a onClick={()=> altera_exibesair(!exibe_sair)} > Sair </a>
-                <Sair exibe_sair = {exibe_sair}  />
+
+            </div>
+
+            <div className='Sair_centro' >
+
+                <Sair exibe_sair = {exibe_sair} />
 
             </div>
 

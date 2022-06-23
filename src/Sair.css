@@ -12,25 +12,28 @@
     background:#f7d3fa;
     color:black;
     text-align: center;
+    right: 0 ;
 
 }
 
 .Sair_button{
 
-    margin-right: 115px;
-    padding: 10px;
+    width: 100px;
+    height: 40px;
     text-decoration: none;
     background: #933999;
     color: white;
     border-radius: 15px;
     border: none;
+    text-align: center;
+    text-align-last: center;
 
 }
 
-.Cancelar_button{
+/* .Cancelar_button{
 
-    max-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: 50px;
     text-decoration: none;
     text-align: center;
     background: #933999;
@@ -38,17 +41,25 @@
     border-radius: 15px;
     border: none;
 
-}
+} */
 
 .Links{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .Sair_invisivel{
 
     display: none;
+
+}
+
+.Sair_fundo{
+
+    padding: 20px;
+    margin: 20px;
+    width: 800px ;
 
 }
