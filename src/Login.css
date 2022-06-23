@@ -46,7 +46,7 @@
     background:#f7d3fa
 }
 
-input{
+.box2 input{
     width: 80%;
     height: 40px; 
     font-size: 20px;
@@ -54,7 +54,7 @@ input{
     border-color: #933999;
 }
 
-select{
+.box2 select{
     display: inline-block;
     position: relative;
     overflow: hidden;

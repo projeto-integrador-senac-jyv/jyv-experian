@@ -30,18 +30,18 @@
     border: 5px 10px 5px;
     border-radius: 30px;
     box-shadow: 3px 2px 3px #933999;
-    height: 450px;
-    width: 550px;
+    height: 500px;
+    width: 600px;
     padding: 30px;
     text-align: center;
     font-size: 22px;
     background:#f7d3fa;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-right: 40px;
 
 }
 
-#simulacao .input{
+.box3 input{
 
     width: 80%;
     height: 40px;
@@ -50,7 +50,7 @@
     border-color: #933999;
 }
 
-#simulacao .select{
+.box3 select{
 
     display: inline-block;
     position: relative;
@@ -84,3 +84,4 @@
     color: #933999;
     font-size: 50px;
 }
+
