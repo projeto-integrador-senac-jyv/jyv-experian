@@ -13,12 +13,8 @@ const Adm = () => {
 
             <Menu/>
 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
-            <h1> Seja-bem vindo, veja suas atualizações: </h1>
+           
+            <h1 className="roxo"> Seja bem-vindo, veja suas atualizações: </h1>
 
             <div className="fundoAdm" >
 
