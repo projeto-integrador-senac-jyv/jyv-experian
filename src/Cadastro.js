@@ -18,7 +18,7 @@ function Cadastro() {
                     <input required  placeholder="Digite seu nome completo"></input>
                     <br/>
                     <br/>
-                    <input required  placeholder="Digite sua data de nascimento"></input>
+                    <input required type="date" placeholder="Digite sua data de nascimento"></input>
                     <br/>
                     <br/>
                     <input required  placeholder="Digite seu CPF ou CNPJ"></input>
@@ -33,7 +33,7 @@ function Cadastro() {
                     <input required minlength="8"  type="password" placeholder="Confirme sua senha"></input>
                     <br/>
                     <br/>
-                    <button oneClick="href={./AnaliseSimulacao}" className="button1"> ENVIAR </button>
+                    <button  onClick={"./AnaliseSimulacao"} className="button1"> ENVIAR </button>
                 </form>
             </div>
             

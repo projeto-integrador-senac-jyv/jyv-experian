@@ -28,15 +28,17 @@ function Simulacao() {
             <div className="box3 animate__animated animate__fadeIn">
 
                 <div>
-                    <input placeholder="Informe  seu CPF"></input>
-                    <br/>
-                    <br/>
-                    <input placeholder="Informe seu e-mail"></input>
-                    <br/>
-                    <br/>
-                    <input placeholder="Informe o valor desejado para empréstimo"></input>
-                    <br/>
-                    <br/>
+                    <form>
+                        <input required placeholder="Informe  seu CPF"></input>
+                        <br/>
+                        <br/>
+                        <input required type="email" placeholder="Informe seu e-mail"></input>
+                        <br/>
+                        <br/>
+                        <input required placeholder="Informe o valor desejado para empréstimo"></input>
+                        <br/>
+                        <br/>
+                    </form>
                 </div>
 
                     
