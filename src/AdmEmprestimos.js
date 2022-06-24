@@ -40,7 +40,11 @@ const AdmEmprestimos = () => {
                 emprestimos==0? <p>  Carregando... </p>:
                 emprestimos.map(e => 
                     <div className="Caixa2" >
-
+                
+                <h4> CPF ou CNPJ: </h4>
+                <h4> E-Mail:{e.email} </h4>
+                <h4> Banco:{e.banco} </h4>
+                <h4> Forma de parcelamento:{e.parcelamento} </h4>
                 <h4> Nome completo:{e.nome} </h4>
                 <h4> Data de nascimento:{e.nascimento} </h4>
                 <h4> CPF:{e.cpf} </h4>
@@ -55,18 +59,6 @@ const AdmEmprestimos = () => {
                 ) 
 
             }
-
-            <div className="Caixa" >
-        
-
-                <h4> CPF ou CNPJ: </h4>
-                <h4> E-Mail: </h4>
-                <h4> Valor: </h4>
-                <h4> Banco: </h4>
-                <h4> Forma de parcelamento: </h4>
-
-
-            </div>
 
             <Rodape/>
 
