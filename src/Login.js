@@ -14,6 +14,7 @@ function Login() {
             <Menu/>
             
             <div className="box2 animate__animated animate__fadeIn" >
+                
                 <form>
 
                 
@@ -55,7 +56,9 @@ function Login() {
                     <br/> */}
 
                     <button className="button2"> ENVIAR </button>
+                    
                 </form>
+
             </div>
             
             <Rodape/>
