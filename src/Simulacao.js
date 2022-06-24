@@ -29,13 +29,13 @@ function Simulacao() {
 
                 <div>
                     <form>
-                        <input required placeholder="Informe  seu CPF"></input>
+                        <input required  minlength="11" placeholder="Informe  seu CPF ou CNPJ"></input>
                         <br/>
                         <br/>
                         <input required type="email" placeholder="Informe seu e-mail"></input>
                         <br/>
                         <br/>
-                        <input required placeholder="Informe o valor desejado para empréstimo"></input>
+                        <input required type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
                     </form>

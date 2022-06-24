@@ -51,7 +51,7 @@ const AdmEmprestimos = () => {
                 {e.status==0? <p>  Recusado </p>:e.status==1?<p>  Aceito </p>: <p> Aguardando...</p>}
 
                 <h4> Data do envio:{e.data_pedido} </h4>
-
+                    
             </div>
 
              ) 
