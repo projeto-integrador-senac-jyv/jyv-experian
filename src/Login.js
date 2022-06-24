@@ -55,7 +55,7 @@ function Login() {
                     <br/>
                     <br/> */}
 
-                    <button  href="./Simulacao" className="button2"> ENVIAR </button>
+                    <button href="./Simulacao" className="button2"> ENVIAR </button>
                    
                 </form>
 
