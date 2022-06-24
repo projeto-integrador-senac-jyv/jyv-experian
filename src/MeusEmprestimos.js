@@ -13,11 +13,7 @@ const MeusEmprestimos = () => {
 
             <Menu/>
 
-            <br/>
-            <br/>
-            <br/>
-
-            <h1> Meus Empréstimos: </h1>
+            <h1> Meus empréstimos: </h1>
 
             <div className="MeusEmprestimos_display">
 
@@ -35,6 +31,7 @@ const MeusEmprestimos = () => {
                     <h3> Data de vencimento: </h3>
 
                 </div>
+              
 
             </div>
 

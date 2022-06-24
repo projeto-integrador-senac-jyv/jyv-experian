@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
 .AdmEmSol{
-    
+
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
     width: 100%;
@@ -27,7 +27,7 @@
     width: 550px; 
     padding: 30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     background:#f7d3fa
 
 }
