@@ -1,6 +1,6 @@
 import Menu from "./Menu";
 import Rodape from './Rodape';
-import {Link} from "react-router-dom";
+
 
 function Cadastro() {
 
@@ -18,10 +18,10 @@ function Cadastro() {
                     <input required  placeholder="Digite seu nome completo"></input>
                     <br/>
                     <br/>
-                    <input required type="date"  placeholder="Digite sua data de nascimento"></input>
+                    <input required  placeholder="Digite sua data de nascimento"></input>
                     <br/>
                     <br/>
-                    <input required   placeholder="Digite seu CPF ou CNPJ"></input>
+                    <input required  placeholder="Digite seu CPF ou CNPJ"></input>
                     <br/>
                     <br/>
                     <input required type="email" placeholder="Digite seu e-mail"></input>
@@ -33,7 +33,7 @@ function Cadastro() {
                     <input required minlength="8"  type="password" placeholder="Confirme sua senha"></input>
                     <br/>
                     <br/>
-                    <button className="button1"> ENVIAR </button>
+                    <button oneClick="href={./AnaliseSimulacao}" className="button1"> ENVIAR </button>
                 </form>
             </div>
             
