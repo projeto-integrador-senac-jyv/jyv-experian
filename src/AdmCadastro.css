@@ -11,8 +11,9 @@
 
 .AdmSol h1{
 
-    color: rgb(0, 0, 0);
+    color: #933999;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
 
 }
 
@@ -22,11 +23,11 @@
     border: 5px 10px 5px;
     border-radius: 30px;
     box-shadow: 3px 2px 3px #933999;
-    margin: 180px auto;
+    margin: 150px auto;
     width: 550px; 
     padding: 30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     background:#f7d3fa
 
 }

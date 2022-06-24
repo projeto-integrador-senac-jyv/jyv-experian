@@ -13,13 +13,9 @@ const AdmEmprestimos = () => {
             <Menu/>
 
             <div>
-
-                <br/>
-                <br/>
+              
                 <h1> Novas Solicitações: </h1>
-                <br/>
-                <br/>
-
+                
             </div>
 
             <div className="Caixa" >
