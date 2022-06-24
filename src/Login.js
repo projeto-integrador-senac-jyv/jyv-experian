@@ -20,7 +20,7 @@ function Login() {
                 
                     <h1> Login </h1>
 
-                    <FontAwesomeIcon icon={faIdCard} />
+                    <FontAwesomeIcon  className="icon" icon={faIdCard} />
                     <br/>
                     <input required minlength="11"   placeholder="Digite seu CPF ou CNPJ"></input>
 
@@ -28,7 +28,7 @@ function Login() {
                     <br/>
 
                    
-                    <FontAwesomeIcon icon={faLock} />
+                    <FontAwesomeIcon className="icon" icon={faLock} />
                     <br/>
                     <input required minlength="8"  type="password" placeholder="Digite sua senha"></input>
 

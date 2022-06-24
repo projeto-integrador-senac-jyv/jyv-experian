@@ -13,12 +13,12 @@ const Sair = (props) => {
 
             <div className='Sair_container' >
 
-                <h1>  Tem certeza que deseja sair? </h1>
+                <h1 className='cor_h1'>  Tem certeza que deseja sair? </h1>
 
                 <div className='Links'>
 
                     <Link to='' className='Sair_button'> Cancelar </Link>
-                    <Link to='' className='Sair_button'> Sair </Link>
+                    <Link to='/' className='Sair_button'> Sair </Link>
 
                 </div>
 
