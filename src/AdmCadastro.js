@@ -8,12 +8,13 @@ const AdmCadastro = () => {
 
     require('./AdmCadastro.css')
 
+    const [usuarios, alterausuarios] = React.useState([])
+
         const axios = require('axios').default;
     
-        const [usuarios, alterausuarios]=React.useState([])
         React.useEffect(()=>{
     
-            axios.get('http://localhost:3001/usuarios')
+            axios.get('http://localhost:3001/emprestimos')
       .then(function (response) {
         const dados = response.data
         alterausuarios(dados)
