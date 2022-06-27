@@ -8,11 +8,12 @@ const Avaliacoes = () => {
 
         <div id="avaliacoes" className='titulo'>
 
-            <br/>
-            <br/>
-
             <h1> AVALIAÇÕES DOS NOSSOS CLIENTES: </h1>
 
+            <br/>
+            <br/>
+            <br/>
+            
             <div className='av' >
 
                 <div className='avs' >

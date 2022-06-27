@@ -5,7 +5,7 @@ import Inicio from './Inicio';
 import Simulacao from './Simulacao';
 import AnaliseCadastro from './AnaliseCadastro';
 import AnaliseSimulacao from './AnaliseSimulacao';
-import Adm from './Adm';
+import ComoFunciona from './Comofunciona';
 import AdmCadastro from './AdmCadastro';
 import AdmEmprestimos from './AdmEmprestimos';
 import FaleConosco from './FaleConosco';
@@ -30,7 +30,7 @@ function App () {
                 <Route path="/simulacao"element={<Simulacao/>}/>
                 <Route path="/AnaliseCadastro" element={<AnaliseCadastro/>}/>
                 <Route path='/AnaliseSimulacao' element= {<AnaliseSimulacao/>}/>
-                <Route path="/Adm" element={<Adm/>}/>
+                <Route path="/ComoFunciona" element={<ComoFunciona/>}/>
                 <Route path="/AdmCadastro" element={<AdmCadastro/>}/>
                 <Route path="/AdmEmprestimos" element={<AdmEmprestimos/>}/>
                 <Route path="/FaleConosco" element={<FaleConosco/>}/>

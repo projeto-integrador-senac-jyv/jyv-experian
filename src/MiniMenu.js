@@ -19,7 +19,7 @@ const MiniMenu = (props) => {
             <div className='container_mini_menu' >
 
                 <FontAwesomeIcon icon={faUserAstronaut} />
-                <Link to='/MeusEmprestimos' > Meus Empréstimos </Link>
+                <Link to='/Simulacao' > Simular </Link>
                 <br/>
                 <FontAwesomeIcon icon={faHandshake} />
                 <Link to='/parcerias' > Parceiros </Link>
@@ -29,7 +29,7 @@ const MiniMenu = (props) => {
                 <br/>
             
 
-            </div>
+            </div> 
 
             <div className='Sair_centro' >
 

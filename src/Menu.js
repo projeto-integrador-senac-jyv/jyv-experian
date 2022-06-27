@@ -21,8 +21,8 @@ const Menu = () => {
                 
             <div className='linksMenu'>
 
-                <Link to='/Simulacao' > SIMULE</Link>
-                <Link to='/parcerias' > PARCEIROS</Link>
+                <Link to='/ComoFunciona' > Como funciona? </Link>
+                {/* <Link to='/parcerias' > Parceiros</Link> */}
                 
             </div>
 
@@ -33,12 +33,16 @@ const Menu = () => {
 
             </div>
                 
-            <div> 
+            {/* <div> 
                 <img  src='https://escolaeducacao.com.br/wp-content/uploads/2019/06/caixa-banco-codigo-104-750x430.jpeg'/>
                 <img  src='https://newcdn.guiadoinvestidor.com.br/gdi-static/2020/10/itau-logo.jpg'/>
                 <img src='https://media.tribunadointerior.com.br/2022/03/5e612fcd-santander.png'/>
                 <img  src='https://www.jornalcontabil.com.br/wp-content/uploads/2018/11/concurso-pu%CC%81blico-bb-cursodememorizac%CC%A7a%CC%83o-2.jpg'/>
-            </div>
+            </div> */}
+
+            {/* <div>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SerasaExperian-TM_Portrait_RGB.svg/2560px-SerasaExperian-TM_Portrait_RGB.svg.png'></img>
+            </div> */}
 
         </div>
  

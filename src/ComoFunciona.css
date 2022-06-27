@@ -24,11 +24,12 @@
     border: 5px 10px 5px;
     border-radius: 30px;
     box-shadow: 3px 2px 3px #933999;
-    margin: 180px auto;
+    margin: 10px auto;
+    margin-bottom: 70px;
     width: 550px;
     padding: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     background:#f7d3fa
 
 }
@@ -46,6 +47,6 @@
 
 .roxo{
     color: #933999;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 100px;
 }
