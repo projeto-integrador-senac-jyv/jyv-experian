@@ -43,11 +43,11 @@ const QuemSomos = () => {
 
                 <br/>
 
-                <h1 className='h1 q'> SIMULE JÁ </h1>
+                <h1 className='h1 q'> FALE CONOSCO </h1>
 
                 <br/>
 
-                <Link to='/Simulacao' className='button3'> Clique aqui! 
+                <Link to='/faleconosco' className='button3'> Clique aqui! 
                 </Link>
 
             </div>

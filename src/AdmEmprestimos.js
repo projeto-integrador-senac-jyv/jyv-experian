@@ -12,11 +12,11 @@ const AdmEmprestimos = () => {
     React.useEffect(()=>{
 
         axios.get('http://localhost:3001/emprestimos')
-  .then(function (response) {
-    const dados = response.data
-    alteraemprestimos(dados)
-    console.log(dados)
-  })
+        .then(function (response) {
+        const dados = response.data
+        alteraemprestimos(dados)
+       console.log(dados)
+    })
   .catch(function (error) {
     
     console.error(error);
