@@ -19,7 +19,7 @@ const MiniMenu = (props) => {
             <div className='container_mini_menu' >
 
                 <FontAwesomeIcon icon={faUserAstronaut} />
-                <Link to='/MeuPerfil'  > Meu perfil </Link>
+                <Link to='/Simulacao' > Simular </Link>
                 <br/>
                 <FontAwesomeIcon icon={faHandshake} />
                 <Link to='/parcerias' > Parceiros </Link>
@@ -27,10 +27,9 @@ const MiniMenu = (props) => {
                 <FontAwesomeIcon icon={faPhone} />
                 <Link to='/faleconosco' > Fale conosco </Link>
                 <br/>
-                <FontAwesomeIcon icon={faArrowRightFromBracket} />
-                <a onClick={()=> altera_exibesair(!exibe_sair)} > Sair </a>
+            
 
-            </div>
+            </div> 
 
             <div className='Sair_centro' >
 

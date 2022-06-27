@@ -15,6 +15,9 @@ const Inicio = () => {
             <QuemSomos/>
             <PerguntasFrequentes/>
             <Avaliacoes/>
+            <br/>
+            <br/>
+            <br/>
             <Rodape/>
 
         </div>

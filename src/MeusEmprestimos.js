@@ -25,8 +25,8 @@ const MeusEmprestimos = () => {
 
                 <div className="MeusEmprestimos_container">
 
-                    <h3> Banco: </h3>
                     <h3> Valor: </h3>
+                    <h3> Banco: </h3>
                     <h3> Forma de pagamento: </h3>
                     <h3> Data de vencimento: </h3>
 

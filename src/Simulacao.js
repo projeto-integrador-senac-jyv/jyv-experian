@@ -29,6 +29,7 @@ function Simulacao() {
 
                 <div>
                     <form>
+
                         <input required  minlength="11" placeholder="Informe  seu CPF ou CNPJ"></input>
                         <br/>
                         <br/>
@@ -38,12 +39,13 @@ function Simulacao() {
                         <input required type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
+
                     </form>
                 </div>
 
                     
                 <div >
-            
+                    <form>
                     <label for="Banco"></label>
 
                     <select name="Banco" id=" Banco ">
@@ -74,12 +76,12 @@ function Simulacao() {
                         <option value="Escolha uma forma de Parcelamento">Escolha uma forma de Parcelamento</option>
                         <option value="5X Sem juros">5X Sem juros</option>
                         <option value="10X Sem juros">10X Sem juros</option>
-                        <option value="15X Sem juros">15X Sem juros</option>
-                        <option value="20X Sem juros">20X Sem juros</option>
+                        <option value="15X Sem juros">15X Com juros</option>
+                        <option value="20X Sem juros">20X Com juros</option>
 
                     </select>
 
-
+                    </form>
                 
                 </div>
 
