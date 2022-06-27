@@ -11,8 +11,9 @@
     font-size: 22px;
     background:#f7d3fa;
     color:black;
-    position:absolute;
+    position: absolute;
     right: 0;
+    z-index: 100;
 
 }
 

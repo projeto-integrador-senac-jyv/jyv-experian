@@ -67,7 +67,7 @@ const Avaliacoes = () => {
                     <img src='https://portosulcomercial.com.br/imagem/5estrelas.png' className='estrelas' ></img>
 
                 </div>
-
+                
             </div>
 
 

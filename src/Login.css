@@ -4,7 +4,7 @@
 .fundo2{
     background-image: url('./imagens/fundo_branco.jpg');
     background-position: center;
-
+    color: #933999;
     margin: 0;
 }
 
@@ -12,9 +12,7 @@
     max-width: 100%;
 }
 
-.fundo2 h1{
-    color: #933999;
-}
+
 
 .button2{
     width: 140px;
@@ -62,3 +60,8 @@
     width: 81%;
     font-size: 19px;
 }
+
+.icon{
+    color: black;
+}
+    
