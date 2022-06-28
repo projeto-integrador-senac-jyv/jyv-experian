@@ -5,7 +5,14 @@ import {Link} from "react-router-dom";
 
 function Simulacao() {
 
-
+    const enviasimulacao = () => {
+        const cpf_cnpj = document.getElementById ("cpf_cnpj").value;
+        const parcelamento = document.getElementById("parcelamento").value;
+        const nascimento = document.getElementById("nascimento").value;
+        const status = document.getElementById("status").value;
+        const valor = document.getElementById("valor").value;
+        const email = document.getElementById("email").value;
+    } 
 
     require("./Simulacao.css");
 
@@ -24,28 +31,31 @@ function Simulacao() {
                 <img src='https://i.imgur.com/lOf8lLY.png' ></img>
                 
             </div>
-        
+    
             <div className="box3 animate__animated animate__fadeIn">
-
+        <form onSubmit = {() => enviasimulacao()} >   
                 <div>
-                    <form>
+                    
 
-                        <input required  minlength="11" placeholder="Informe  seu CPF ou CNPJ"></input>
+                        <input required id="cpf_cnpj"  minlength="11" placeholder="Informe  seu CPF ou CNPJ"></input>
                         <br/>
                         <br/>
-                        <input required type="email" placeholder="Informe seu e-mail"></input>
+                        <input required id="email" type="email" placeholder="Informe seu e-mail"></input>
                         <br/>
                         <br/>
-                        <input required type="number" placeholder="Informe o valor desejado para empréstimo"></input>
+                        <input required id="valor" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
-
-                    </form>
+                        <input required id="nascimento" type="date" placeholder="Informe sua data de nascimento"></input>
+                        <br/>
+                        <br/>
+                    
+                   
                 </div>
 
                     
                 <div >
-                    <form>
+              
                     <label for="Banco"></label>
 
                     <select name="Banco" id=" Banco ">
@@ -72,7 +82,7 @@ function Simulacao() {
 
                     <label for="Parcelamento"></label>
 
-                    <select name="Parcelamento" id=" Parcelamento ">
+                    <select name="Parcelamento" id="parcelamento">
                         <option value="Escolha uma forma de Parcelamento">Escolha uma forma de Parcelamento</option>
                         <option value="5X Sem juros">5X Sem juros</option>
                         <option value="10X Sem juros">10X Sem juros</option>
@@ -80,15 +90,15 @@ function Simulacao() {
                         <option value="20X Sem juros">20X Com juros</option>
 
                     </select>
-
-                    </form>
+                    <button className="button3"> Solicitar Análise </button>
+                    
                 
                 </div>
 
                 <br/>
                 <br/>
-                <Link to='/AnaliseCadastro' className="button3"> Solicitar Análise </Link>
-
+                
+         </form>
             </div>
 
         </div>
