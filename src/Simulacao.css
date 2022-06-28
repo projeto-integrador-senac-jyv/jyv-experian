@@ -11,9 +11,9 @@
 }
 
 
-.button3 {
+#simulacao .button3 {
 
-    width: 140px;
+    width: 180px;
     height: 50px ;
     padding: 15px;
     background: #933999;
@@ -21,6 +21,8 @@
     border-radius: 15px;
     border: none;
     text-decoration: none;
+    margin: 40px;
+    font-size: 17px;
 }
 
 .box3{
@@ -32,19 +34,19 @@
     box-shadow: 3px 2px 3px #933999;
     height: 500px;
     width: 600px;
-    padding: 40px;
+    padding: 70px;
     text-align: center;
     font-size: 25px;
     background:#f7d3fa;
     margin-top: 90px;
-    margin-right: 40px;
-   
+    margin-right: 40px; 
+    
 
 }
 
 .box3 input{
 
-    width: 80%;
+    width: 500px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -57,7 +59,7 @@
     position: relative;
     overflow: hidden;
     height: 45px;
-    width: 81%;
+    width: 500px;
     font-size: 19px;
     border-radius: 10px;
     border-color: #933999;
