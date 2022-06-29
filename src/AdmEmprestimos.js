@@ -46,7 +46,7 @@ const AdmEmprestimos = () => {
                 <h4> CPF ou CNPJ:{e.cpf_cnpj} </h4>
                 <h4> E-Mail:{e.email} </h4>
                 <h4> Valor:{e.valor} </h4>
-                <h4> Banco: </h4>
+                <h4> Banco:{e.banco} </h4>
                 
 
                 {e.status==0? <p>  Recusado </p>:e.status==1?<p>  Aceito </p>: <p> Aguardando...</p>}
