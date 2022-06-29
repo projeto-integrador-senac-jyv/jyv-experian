@@ -1,17 +1,48 @@
 import React from 'react'
 import Menu from "./Menu";
 import Rodape from './Rodape';
-import {Link} from "react-router-dom";
+import {Link , useNavigate} from "react-router-dom";
 
 function Simulacao() {
-
-    const enviasimulacao = () => {
+    const navigate = useNavigate()
+    const enviasimulacao = (e) => {
+        e.preventDefault()
         const cpf_cnpj = document.getElementById ("cpf_cnpj").value;
         const parcelamento = document.getElementById("parcelamento").value;
         const nascimento = document.getElementById("nascimento").value;
-        const status = document.getElementById("status").value;
         const valor = document.getElementById("valor").value;
         const email = document.getElementById("email").value;
+        const banco = document.getElementById("banco").value;
+
+        const obj = {
+            cpf_cnpj: cpf_cnpj, 
+            parcelamento: parcelamento,
+            nascimento: nascimento,
+            valor: valor,
+            email: email,
+            banco: banco
+        }
+
+        const axios = require('axios').default;
+        
+        axios.post('http://localhost:3001/emprestimos', obj)
+        .then(function (response) {
+
+            console.log(response)
+
+            if(response.status == 200){
+            
+                navigate("/AnaliseSimulacao")
+            }else{
+                alert("Você Preencheu algo errado, tente novamente.")
+            }
+
+        })
+        .catch(function (error) {
+            console.error(error);
+        })
+    
+
     } 
 
     require("./Simulacao.css");
@@ -33,7 +64,7 @@ function Simulacao() {
             </div>
     
             <div className="box3 animate__animated animate__fadeIn">
-        <form onSubmit = {() => enviasimulacao()} >   
+        <form onSubmit = {(e) => enviasimulacao(e)} >   
                 <div>
                     
 
@@ -43,7 +74,7 @@ function Simulacao() {
                         <input required id="email" type="email" placeholder="Informe seu e-mail"></input>
                         <br/>
                         <br/>
-                        <input required id="valor" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
+                        <input required id="valor" step="0.01" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
                         <input required id="nascimento" type="date" placeholder="Informe sua data de nascimento"></input>
@@ -58,7 +89,7 @@ function Simulacao() {
               
                     <label for="Banco"></label>
 
-                    <select name="Banco" id=" Banco ">
+                    <select name="Banco" id="banco">
 
                         <option value="Escolha um Banco" >Escolha um Banco</option>
                         <option value="Banrisul">Banco Banrisul </option>
