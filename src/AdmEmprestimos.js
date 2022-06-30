@@ -18,6 +18,7 @@ const AdmEmprestimos = () => {
             if (senha != senha_digitada){
                 alert('Você não tem permissão para acessar essa área!')
                 navigate('/')
+                // teste
             }
 
     }, [])
