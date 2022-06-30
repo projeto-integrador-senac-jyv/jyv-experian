@@ -4,6 +4,11 @@ import Rodape from './Rodape';
 import {Link , useNavigate} from "react-router-dom";
 
 function Simulacao() {
+
+    // nascimento = nascimento.split("T")[0];
+
+    
+
     const navigate = useNavigate()
     const enviasimulacao = (e) => {
         e.preventDefault()
@@ -77,7 +82,7 @@ function Simulacao() {
                         <input required id="valor" step="0.01" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
-                        <input required id="nascimento" type="date" placeholder="Informe sua data de nascimento"></input>
+                        <input required id="nascimento" type="date" min="1900-01-01" max="2004-07-01" placeholder="Informe sua data de nascimento"></input>
                         <br/>
                         <br/>
                     
@@ -143,4 +148,5 @@ function Simulacao() {
   )
 }
 
-export default Simulacao
+export default Simulacao;
+
