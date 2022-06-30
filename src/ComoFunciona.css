@@ -10,14 +10,15 @@
 
 }
 
-.fundoAdm{
+.fundoAdm img{
 
-    display: flex;
-    justify-content: space-between;
+    border-radius: 20px;
+    margin: 0;
+    max-width: 1000px;
 
 }
 
-.boxAdm{
+/* .boxAdm{
 
     font-family:'Titillium Web', sans-serif;
     justify-content: center;
@@ -32,18 +33,18 @@
     font-size: 30px;
     background:#f7d3fa
 
-}
+} */
 
 .button4{
-    width: 200px;
-    height: 50px ;
-    padding: 15px;
+
+    padding: 20px;
     text-decoration: none;
     background: #933999;
     color: white;
     border-radius: 20px;
     border: none;
     font-size: 25px;
+
 }
 
 .roxo{
