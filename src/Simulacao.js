@@ -37,7 +37,7 @@ function Simulacao() {
 
             if(response.status == 200){
             
-               // navigate("/AnaliseSimulacao")
+                navigate("/AnaliseSimulacao")
             }else{
                 alert("Você Preencheu algo errado, tente novamente.")
             }
