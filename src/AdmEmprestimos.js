@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Menu from "./Menu";
 import Rodape from "./Rodape";
 
@@ -6,14 +7,21 @@ const AdmEmprestimos = () => {
 
     require('./AdmEmprestimos.css')
 
+    const navigate = useNavigate()
 
-    const senha = 'milkshake'
+    React.useEffect(()=>{
 
-    window.prompt('Área restrita a usuários, digite a senha: ')
+        const senha = 'milkshake'
 
-        if (senha == 'milkshake'){
+        const senha_digitada = window.prompt('Área restrita a usuários, digite a senha: ')
 
-        }
+            if (senha != senha_digitada){
+                alert('Você não tem permissão para acessar essa área!')
+                navigate('/')
+            }
+
+    }, [])
+        
 
     const axios = require('axios').default;
     
@@ -35,13 +43,6 @@ const AdmEmprestimos = () => {
 
     },[])
 
-    const senha = 'milkshake'
-
-    window.prompt('Área restrita a usuários, digite a senha: ')
-
-    if (senha == 'milkshake'){
-
-    }
 
     //  },[])
 
