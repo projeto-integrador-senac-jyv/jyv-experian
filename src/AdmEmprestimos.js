@@ -6,6 +6,15 @@ const AdmEmprestimos = () => {
 
     require('./AdmEmprestimos.css')
 
+
+    const senha = 'milkshake'
+
+    window.prompt('Área restrita a usuários, digite a senha: ')
+
+        if (senha == 'milkshake'){
+
+        }
+
     const axios = require('axios').default;
     
     const [emprestimos, alteraemprestimos]=React.useState([])
