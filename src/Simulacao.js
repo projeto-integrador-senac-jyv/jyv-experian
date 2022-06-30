@@ -37,7 +37,7 @@ function Simulacao() {
 
             if(response.status == 200){
             
-                navigate("/AnaliseSimulacao")
+               // navigate("/AnaliseSimulacao")
             }else{
                 alert("Você Preencheu algo errado, tente novamente.")
             }
@@ -79,7 +79,7 @@ function Simulacao() {
                         <input required id="email" type="email" placeholder="Informe seu e-mail"></input>
                         <br/>
                         <br/>
-                        <input required id="valor" step="0.01" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
+                        <input required id="valor" min='100.00'max="9999.99" step="0.01" type="number" placeholder="Informe o valor desejado para empréstimo"></input>
                         <br/>
                         <br/>
                         <input required id="nascimento" type="date" min="1900-01-01" max="2004-07-01" placeholder="Informe sua data de nascimento"></input>
