@@ -9,6 +9,7 @@ const AdmEmprestimos = () => {
     const axios = require('axios').default;
     
     const [emprestimos, alteraemprestimos]=React.useState([])
+
     React.useEffect(()=>{
 
         axios.get('http://localhost:3001/emprestimos')
@@ -17,12 +18,23 @@ const AdmEmprestimos = () => {
         alteraemprestimos(dados)
        console.log(dados)
     })
-  .catch(function (error) {
-    
-    console.error(error);
-  })
 
-     },[])
+    .catch(function (error) {
+    
+        console.error(error);
+    })
+
+    },[])
+
+    const senha = 'milkshake'
+
+    window.prompt('Área restrita a usuários, digite a senha: ')
+
+    if (senha == 'milkshake'){
+
+    }
+
+    //  },[])
 
     return (  
 
