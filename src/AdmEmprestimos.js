@@ -4,43 +4,64 @@ import Menu from "./Menu";
 import Rodape from "./Rodape";
 
 const AdmEmprestimos = () => {
-
+    
     require('./AdmEmprestimos.css')
 
     const navigate = useNavigate()
-
-    React.useEffect(()=>{
-
-        const senha = 'milkshake'
-
-        const senha_digitada = window.prompt('Área restrita a usuários, digite a senha: ')
-
-            if (senha != senha_digitada){
-                alert('Você não tem permissão para acessar essa área!')
-                navigate('/')
-                // teste
-            }
-
-    }, [])
-        
-
-    const axios = require('axios').default;
     
     const [emprestimos, alteraemprestimos]=React.useState([])
 
     React.useEffect(()=>{
 
+        // const senha = '1234'
+
+        // const senha_digitada = window.prompt('Área restrita a usuários, digite a senha: ')
+
+        //     if (senha != senha_digitada){
+        //         alert('Você não tem permissão para acessar essa área!')
+        //         navigate('/')
+        //         // teste
+        //     }
+
+    }, [])
+    
+    const busca_emprestimos = ()=> {
+
         axios.get('http://localhost:3001/emprestimos')
         .then(function (response) {
-        const dados = response.data
-        alteraemprestimos(dados)
-       console.log(dados)
-    })
+            const dados = response.data
+            alteraemprestimos(dados)
+            console.log(dados)
+        })
+        .catch(function (error) {
+        
+            console.error(error);
+        })
 
-    .catch(function (error) {
+    }
+
+    const muda_status =(id_emprestimos,status) => {
+
+        axios.put(`http://localhost:3001/emprestimos/${id_emprestimos}/${status}`)
+        .then(function (response) {
+            busca_emprestimos()
+            console.log(response)
+        })
+        .catch(function (error) {
+        
+            console.error(error);
+        })
+
+    }
+
+    const axios = require('axios').default;
     
-        console.error(error);
-    })
+
+
+
+    React.useEffect(()=>{
+
+        busca_emprestimos()
 
     },[])
 
@@ -86,8 +107,7 @@ const AdmEmprestimos = () => {
                     hora = hora.split("T")[1]
                     hora = hora.split(".")[0]
                     hora = hora.split(":")[0] + ":" + hora.split(":")[1]
-                
-
+            
                     
                     return(
                         <div className="Caixa2" >
@@ -98,11 +118,17 @@ const AdmEmprestimos = () => {
                             <h4> E-Mail: {e.email} </h4>
                             <h4> Valor: {e.valor} </h4>
                             <h4> Banco: {e.banco} </h4>
-                            
-
-                            {e.status==0? <p className="recusado">  Recusado </p>:e.status==1? <p className="aprovado">  Aceito </p>:<p className="aguardando"> Aguardando...</p>}
 
                             <h4> Data do envio: {pedido_data + " às " + hora} </h4>
+
+                            {e.status==0? <p className="recusado"> Status: Recusado </p>:e.status==1? <p className="aprovado"> Status: Aprovado </p>:<p className="aguardando"> Status: Aguardando</p>}
+
+                            <div className="ButtonAdmEmprestimos">
+
+                                <button className="AprovarAdmEmprestimos"  onClick={()=> muda_status(e.id_emprestimos,1)}> Aprovar </button>
+                                <button className="RecusarAdmEmprestimos" onClick={()=> muda_status(e.id_emprestimos,0)} > Recusar </button>
+
+                            </div>
 
                         </div>
                     )
