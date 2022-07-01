@@ -10,8 +10,6 @@
 
 }
 
-
-
 .AdmEmSol h1{
 
     color: #933999;
@@ -20,21 +18,13 @@
 
 }
 
-.Caixa2{
+.Carrossel{
  
-    justify-content: center;
-    font-family:'Titillium Web', sans-serif;
-    border: 5px 10px 5px;
-    border-radius: 30px;
-    box-shadow: 3px 2px 3px   #933999;
-    margin: 45px auto;
-    width: 700px; 
-    padding: 30px;
-    text-align: center;
-    font-size: 25px;
-    background:#f7d3fa;
     
-
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
 }
 
 .recusado {
@@ -51,8 +41,6 @@
     font-size: 20px;
 
 }
-
-
 
 .aprovado {
 
@@ -73,7 +61,7 @@
 
     border-radius: 10px;
     border: none;
-    margin-left: 250px;
+    margin-left: 210px;
     width: 150px;
     height: 60px ;
     padding: 10px;
@@ -113,9 +101,29 @@
 }
 
 .ButtonAdmEmprestimos{
+
     display: flex;
     justify-content: center;
+
 }
+
 .ButtonAdmEmprestimos button{
+
     margin: 0 30px;
+
+}
+
+.Colunas{
+
+    font-family:'Titillium Web', sans-serif;
+    border: 5px 10px 5px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px   #933999;
+    margin: 30px auto;
+    width: 600px; 
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    background:#f7d3fa;
+
 }
