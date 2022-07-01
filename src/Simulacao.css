@@ -25,6 +25,12 @@
     font-size: 17px;
 }
 
+#simulacao .button3:hover{
+
+    color:#D4A4FB;
+
+}
+
 .box3{
 
     font-family:'Titillium Web', sans-serif;
