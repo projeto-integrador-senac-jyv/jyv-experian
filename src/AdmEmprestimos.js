@@ -108,18 +108,66 @@ const AdmEmprestimos = () => {
                     hora = hora.split(".")[0]
                     hora = hora.split(":")[0] + ":" + hora.split(":")[1]
 
-                    if (status == 2){
-
-
-                    }
-                    
                     return(
 
-                        <div className="Caixa2" >
+                        
 
-                            <div>
-                            
-                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
+                        <div className="Carrossel" >
+
+                            <div className="Colunas">
+
+                                <h4> Forma de parcelamento: </h4>
+                                <h2>{e.parcelamento}</h2>
+                                <br/>
+
+                                <h4> Data de nascimento: </h4>
+                                <h2>{nascimento}</h2>
+                                <br/>
+
+                                <h4> CPF ou CNPJ: </h4>
+                                <h2>{e.cpf_cnpj}</h2>
+                                <br/>
+
+                                <h4> E-Mail: </h4>
+                                <h2>{e.email}</h2>
+                                <br/>
+
+                                <h4> Valor: </h4>
+                                <h2>{e.valor}</h2>
+                                <br/>
+
+                                <h4> Banco: </h4>
+                                <h2>{e.banco}</h2>
+                                <br/>
+
+                                <h4> Data do envio: </h4>
+
+                                {/* {e.status==0? <p className="recusado"> Status: Recusado </p>} */}
+
+                                {/* {
+                                    if (status == 0){
+                                        <p className="recusado"> Status: Recusado </p>
+                                    }
+                                } */}
+
+                                <div>
+                                    {e.status==0? <p className="recusado"> Status: Recusado </p>:e.status==1? <p className="aprovado"> Status: Aprovado </p>:<p className="aguardando"> Status: Aguardando</p>}
+                                </div>
+
+                                <div className="ButtonAdmEmprestimos">
+
+                                    <button className="AprovarAdmEmprestimos"  onClick={()=> muda_status(e.id_emprestimos,1)}> Aprovar </button>
+                                    <button className="RecusarAdmEmprestimos" onClick={()=> muda_status(e.id_emprestimos,0)} > Recusar </button>
+
+                                </div>
+
+                            </div>
+
+
+
+                            {/* <div className="Colunas"> */}
+
+                                {/* <h4> Forma de parcelamento: {e.parcelamento} </h4>
                                 <h4> Data de nascimento: {nascimento} </h4>
                                 <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
                                 <h4> E-Mail: {e.email} </h4>
@@ -128,13 +176,27 @@ const AdmEmprestimos = () => {
 
                                 <h4> Data do envio: {pedido_data + " às " + hora} </h4>
 
-                                {e.status==0? <p className="recusado"> Status: Recusado </p>}
+                                {/* {e.status==1? <p className="aprovado"> Status: Aprovado </p>} */}
 
-                            </div>
+                                {/* {
+                                    if (status == 1){
+                                        <p className="aprovado"> Status: Aprovado </p>
+                                    }
+                                } */}
 
-                            <div>
 
-                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
+                                {/* <div className="ButtonAdmEmprestimos">
+
+                                    <button className="AprovarAdmEmprestimos"  onClick={()=> muda_status(e.id_emprestimos,1)}> Aprovar </button>
+                                    <button className="RecusarAdmEmprestimos" onClick={()=> muda_status(e.id_emprestimos,0)} > Recusar </button>
+
+                                </div>  */}
+
+                            {/* </div> */}
+
+                            {/* <div className="Colunas"> */}
+
+                                {/* <h4> Forma de parcelamento: {e.parcelamento} </h4>
                                 <h4> Data de nascimento: {nascimento} </h4>
                                 <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
                                 <h4> E-Mail: {e.email} </h4>
@@ -143,33 +205,27 @@ const AdmEmprestimos = () => {
 
                                 <h4> Data do envio: {pedido_data + " às " + hora} </h4>
 
-                                {e.status==1? <p className="aprovado"> Status: Aprovado </p>
+                                {/* {<p className="aguardando"> Status: Aguardando</p>} */}
 
-                            </div>
+                                {/* {
+                                    if (status == 1){
+                                        <p className="aprovado"> Status: Aprovado </p>
+                                    }
+                                } */}
 
-                            <div>
 
-                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
-                                <h4> Data de nascimento: {nascimento} </h4>
-                                <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
-                                <h4> E-Mail: {e.email} </h4>
-                                <h4> Valor: {e.valor} </h4>
-                                <h4> Banco: {e.banco} </h4>
+                                {/* <div className="ButtonAdmEmprestimos">
 
-                                <h4> Data do envio: {pedido_data + " às " + hora} </h4>
+                                    <button className="AprovarAdmEmprestimos"  onClick={()=> muda_status(e.id_emprestimos,1)}> Aprovar </button>
+                                    <button className="RecusarAdmEmprestimos" onClick={()=> muda_status(e.id_emprestimos,0)} > Recusar </button>
 
-                                {e.status==2? <p className="aguardando"> Status: Aguardando</p>}
+                                </div>  */}
 
-                            </div>
+                            {/* </div> */}
 
-                            <div className="ButtonAdmEmprestimos">
-
-                                <button className="AprovarAdmEmprestimos"  onClick={()=> muda_status(e.id_emprestimos,1)}> Aprovar </button>
-                                <button className="RecusarAdmEmprestimos" onClick={()=> muda_status(e.id_emprestimos,0)} > Recusar </button>
-
-                            </div>
 
                         </div>
+
                     )
 
                 })}
@@ -184,3 +240,5 @@ const AdmEmprestimos = () => {
 }
  
 export default AdmEmprestimos;
+
+// {e.status==0? <p className="recusado"> Status: Recusado </p>:e.status==1? <p className="aprovado"> Status: Aprovado </p>:<p className="aguardando"> Status: Aguardando</p>}
