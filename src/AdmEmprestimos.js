@@ -107,21 +107,60 @@ const AdmEmprestimos = () => {
                     hora = hora.split("T")[1]
                     hora = hora.split(".")[0]
                     hora = hora.split(":")[0] + ":" + hora.split(":")[1]
-            
+
+                    if (status == 2){
+
+
+                    }
                     
                     return(
+
                         <div className="Caixa2" >
+
+                            <div>
                             
-                            <h4> Forma de parcelamento: {e.parcelamento} </h4>
-                            <h4> Data de nascimento: {nascimento} </h4>
-                            <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
-                            <h4> E-Mail: {e.email} </h4>
-                            <h4> Valor: {e.valor} </h4>
-                            <h4> Banco: {e.banco} </h4>
+                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
+                                <h4> Data de nascimento: {nascimento} </h4>
+                                <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
+                                <h4> E-Mail: {e.email} </h4>
+                                <h4> Valor: {e.valor} </h4>
+                                <h4> Banco: {e.banco} </h4>
 
-                            <h4> Data do envio: {pedido_data + " às " + hora} </h4>
+                                <h4> Data do envio: {pedido_data + " às " + hora} </h4>
 
-                            {e.status==0? <p className="recusado"> Status: Recusado </p>:e.status==1? <p className="aprovado"> Status: Aprovado </p>:<p className="aguardando"> Status: Aguardando</p>}
+                                {e.status==0? <p className="recusado"> Status: Recusado </p>}
+
+                            </div>
+
+                            <div>
+
+                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
+                                <h4> Data de nascimento: {nascimento} </h4>
+                                <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
+                                <h4> E-Mail: {e.email} </h4>
+                                <h4> Valor: {e.valor} </h4>
+                                <h4> Banco: {e.banco} </h4>
+
+                                <h4> Data do envio: {pedido_data + " às " + hora} </h4>
+
+                                {e.status==1? <p className="aprovado"> Status: Aprovado </p>
+
+                            </div>
+
+                            <div>
+
+                                <h4> Forma de parcelamento: {e.parcelamento} </h4>
+                                <h4> Data de nascimento: {nascimento} </h4>
+                                <h4> CPF ou CNPJ: {e.cpf_cnpj} </h4>
+                                <h4> E-Mail: {e.email} </h4>
+                                <h4> Valor: {e.valor} </h4>
+                                <h4> Banco: {e.banco} </h4>
+
+                                <h4> Data do envio: {pedido_data + " às " + hora} </h4>
+
+                                {e.status==2? <p className="aguardando"> Status: Aguardando</p>}
+
+                            </div>
 
                             <div className="ButtonAdmEmprestimos">
 
