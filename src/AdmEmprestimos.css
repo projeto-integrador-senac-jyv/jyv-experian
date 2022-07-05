@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web&display=swap');
 
+.AdmEmSol .Carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .AdmEmSol{
 
     background-image: url('./imagens/fundo_branco.jpg');
@@ -22,6 +28,7 @@
  
     justify-content: space-between;
     display: flex;
+    margin-bottom: 50px;
     
 }
 
@@ -55,7 +62,7 @@
     font-size: 20px;
     line-height: 30px;
     
-}
+} 
 
 .aguardando {
 
@@ -81,12 +88,23 @@
     border: none;
     width: 150px;
     height: 50px ;
-    background:#bdecb6;
+    /* background:#bdecb6; */
+    background:#63be55;
     color:rgb(3, 3, 3);
     font-family:'Titillium Web', sans-serif;
     font-size: 20px;
     display: inline;
 
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.AprovarAdmEmprestimos:hover{
+    transform: scale(1.05);
+    background:#4bc039;
+    box-shadow: 0 0 5px #1c6411;
 }
 
 .RecusarAdmEmprestimos{
@@ -100,6 +118,17 @@
     font-family:'Titillium Web', sans-serif;
     font-size: 20px;
     display: inline;
+
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.RecusarAdmEmprestimos:hover{
+    transform: scale(1.05);
+    background:#ee524a;
+    box-shadow: 0 0 5px #be3028;
 }
 
 .ButtonAdmEmprestimos{
@@ -128,5 +157,12 @@
     font-size: 13px;
     background:#f7d3fa;
     line-height: 8px;
+
+}
+
+.seta{
+
+    width: 50px;
+    height: 50px;
 
 }
