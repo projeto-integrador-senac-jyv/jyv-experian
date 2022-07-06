@@ -18,7 +18,7 @@ const Avaliacoes = () => {
 
                 <div className='avs' >
 
-                    <h2> Camila </h2>
+                    <h2> Stephany dos Santos </h2>
                     <img src='https://vaptmed.com.br/wp-content/uploads/2021/08/62681-flat-icons-face-computer-design-avatar-icon.png' ></img>
 
                     <p>
@@ -31,7 +31,7 @@ const Avaliacoes = () => {
 
                 <div className='avs' >
 
-                    <h2> Gabriel </h2>
+                    <h2> Conrado Saud </h2>
                     <img src='https://cdn-icons-png.flaticon.com/512/306/306473.png' ></img>
 
                     <p>
@@ -45,7 +45,7 @@ const Avaliacoes = () => {
 
                 <div className='avs' >
 
-                    <h2> Júlia </h2>
+                    <h2> Lahyssa Nineli </h2>
                     <img src='https://icons.veryicon.com/png/o/business/multi-color-financial-and-business-icons/user-139.png' ></img>
                     
                     <p>
@@ -58,7 +58,7 @@ const Avaliacoes = () => {
 
                 <div className='avs' >
 
-                    <h2> Rodrigo </h2>
+                    <h2> Carlos zago </h2>
                     <img src='https://cdn-icons-png.flaticon.com/512/4305/4305692.png'></img>
                     
                     <p>

@@ -18,15 +18,15 @@ const AdmEmprestimos = () => {
 
     React.useEffect(()=>{
 
-        // const senha = '1234'
+        const senha = 'inovação'
 
-        // const senha_digitada = window.prompt('Área restrita a usuários, digite a senha: ')
+        const senha_digitada = window.prompt('Área restrita a usuários, digite a senha: ')
 
-        //     if (senha != senha_digitada){
-        //         alert('Você não tem permissão para acessar essa área!')
-        //         navigate('/')
-        //         // teste
-        //     }
+            if (senha != senha_digitada){
+                alert('Você não tem permissão para acessar essa área!')
+                navigate('/')
+                // teste
+            }
 
     }, [])
     
